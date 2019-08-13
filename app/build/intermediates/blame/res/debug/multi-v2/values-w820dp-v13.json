@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\androidStudioProject\\huantuo\\1\\demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "F:\\androidStudioProject\\huantuo\\1\\demo\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "from": {
+                        "startLines": "4,8,7,6,5,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "295,517,457,405,354,584",
+                        "endColumns": "57,65,58,50,49,52",
+                        "endOffsets": "348,578,511,451,399,632"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,113,179,238,289,339",
+                        "endColumns": "57,65,58,50,49,52",
+                        "endOffsets": "108,174,233,284,334,387"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.talkfun.cloudlive"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+
+    buildTypes {
+
+        debug {
+            debuggable true
+            minifyEnabled false
+            zipAlignEnabled false
+            //移除无用的资源文件
+            shrinkResources false
+        }
+
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            //移除无用的资源文件
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            // signingConfig signingConfigs.release
+        }
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+        checkReleaseBuilds false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+    tasks.whenTaskAdded { task ->
+        if (task.name.equals("lint")) {
+            task.enabled = false
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+    dataBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "com.android.support:support-v4:27+"
+    implementation "com.android.support:appcompat-v7:27+"
+    implementation "com.android.support:recyclerview-v7:27+"
+    implementation "com.android.support:cardview-v7:27+"
+    implementation "com.android.support:design:27+"
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.squareup.dagger:dagger:1.2.2'
+    compileOnly 'com.squareup.dagger:dagger-compiler:1.2.2'
+    implementation 'com.github.ctiao:DanmakuFlameMaster:0.5.6'
+    implementation 'cn.yipianfengye.android:zxing-library:2.2'
+    annotationProcessor 'com.zhy:mpermission-compiler:1.0.0'
+    implementation 'com.zhy:mpermission-api:1.0.0'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+//    implementation project(':sdk')
+//    implementation project(':libwidget')
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    //implementation 'com.github.bumptech.glide:glide:4.5.0'
+    //annotationProcessor 'com.github.bumptech.glide:compiler:4.5.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+  //  implementation 'com.github.bumptech.glide:compiler:3.7.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.0'
+    implementation 'io.socket:socket.io-client:0.8.3'
+    implementation 'org.nanohttpd:nanohttpd:2.2.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    implementation 'q.rorbin:badgeview:1.1.3'
+    implementation 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    implementation 'com.mylhyl:circleDialog:3.0.5'
+    implementation 'com.github.huburt-Hu:NewbieGuide:v2.4.0'
+    implementation 'com.cpiz.bubbleview:bubbleview:1.0.2'
+    implementation 'com.github.chrisbanes:PhotoView:2.0.0'
+
+    implementation 'com.tencent.bugly:crashreport:latest.release'
+    implementation 'com.tencent.bugly:nativecrashreport:latest.release'
+}

@@ -1,0 +1,3 @@
+# Referenced at F:\androidStudioProject\huantuo\1\demo\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:30
+-keep class com.talkfun.cloudlive.TFApplication { <init>(...); }
+

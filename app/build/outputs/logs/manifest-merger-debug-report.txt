@@ -1,0 +1,454 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:123:9-131:20
+	android:grantUriPermissions
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:127:13-47
+	android:authorities
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:125:13-64
+	android:exported
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:126:13-37
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:124:13-67
+manifest
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+MERGED from [com.android.databinding:adapters:3.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\adapters-3.1.2.aar\8fa197d6c1acd0e32c2787f4eb47402c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-3.1.2.aar\dcb9c167aeb5a8a44cad1b3d52ac1a0a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\0ebde9719fa8ca30d7b4a9a37fbcba5b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7762fb267c82ded74f2b634c0f33ce2b\AndroidManifest.xml:17:1-22:12
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ded7220eccd3d2c826d61ed79d3d793e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3a1cf2c58ea1f4297f69bd33c55517c0\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cde077ac02b077d99545fe150858166a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7ed032674e984caf9e184b725cc579b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0966eb8de7a71afd24f52e0e8051309d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\9e2eb205e889eb2f8afb11b56d03b84f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.5.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\DanmakuFlameMaster-0.5.6.aar\a4bbee1823edcc5bb6a5529a86312b44\AndroidManifest.xml:17:1-26:12
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoTabLayout_Lib-2.1.2.aar\c0772ad41a8884fcbf110527628e111a\AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\5a2333e438bba398fa047360327d8cb4\AndroidManifest.xml:2:1-7:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\69221d00779077ef3205af82e3ba6bde\AndroidManifest.xml:15:1-21:12
+MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\2cc775824e67a085c33aa540a730239d\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\394aa4db9378ef11e90a7f3889b36ada\AndroidManifest.xml:2:1-8:12
+MERGED from [com.mylhyl:circleDialog:3.0.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-3.0.5.aar\c595f2fb7227a0c80702cbc949a98df3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.huburt-Hu:NewbieGuide:v2.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\NewbieGuide-v2.4.0.aar\8d375fc5f9d264e85bbc925aec356d3a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.cpiz.bubbleview:bubbleview:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bubbleview-1.0.2.aar\635a440750d9323ffa2a4753674c3b6f\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoView-2.0.0.aar\abaceaf8fb335b693398c954cce332e6\AndroidManifest.xml:2:1-12:12
+MERGED from [com.tencent.bugly:crashreport:3.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-3.0.1.aar\b4958a1e6126f231cdf60cab380c302c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.7.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.7.1.aar\ee27387e4f5748c87d9593cb7567251a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f4b92737a96c6d07f88b10c4761c7c31\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e6e4aea3545ef1a9357655510938c62d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\96b2e4225cf1b32d7b0f5ef8e7c2109e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0b64a063571bc26286e677c1fe5bcbe1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f5dcbd2ed0f7e592340642631795cc29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\238fc16d9e2a865bd57f49573c646059\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4e1c0171f508b8e1243fde32158941ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\db5b0efdb4745b256ac52a688ce94333\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\70be49c780d96f882fc35f1740844760\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\aaf15e58efe5bb494fc45ca8e270278e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\97652b87cbf476cf21ffb2c7d117df8c\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\f428d6b3affea04db8b678820367da64\AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\349f40303a586c9f9062349f325073cf\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+	package
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:1-139:12
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:12:22-75
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:13:5-88
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:13:22-85
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:14:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.GET_TASKS
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.CAMERA
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:17:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:18:5-66
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:18:22-63
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:22:5-83
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:22:22-80
+application
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:25:5-137:19
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:11:5-18:19
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:11:5-18:19
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3a1cf2c58ea1f4297f69bd33c55517c0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3a1cf2c58ea1f4297f69bd33c55517c0\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\9e2eb205e889eb2f8afb11b56d03b84f\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\9e2eb205e889eb2f8afb11b56d03b84f\AndroidManifest.xml:9:5-20
+MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\2cc775824e67a085c33aa540a730239d\AndroidManifest.xml:11:5-20
+MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\2cc775824e67a085c33aa540a730239d\AndroidManifest.xml:11:5-20
+MERGED from [com.mylhyl:circleDialog:3.0.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-3.0.5.aar\c595f2fb7227a0c80702cbc949a98df3\AndroidManifest.xml:11:5-20
+MERGED from [com.mylhyl:circleDialog:3.0.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-3.0.5.aar\c595f2fb7227a0c80702cbc949a98df3\AndroidManifest.xml:11:5-20
+	android:label
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:28:9-41
+	android:allowBackup
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:11:18-44
+	android:icon
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:27:9-39
+	android:theme
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:29:9-40
+	android:usesCleartextTraffic
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:26:9-38
+activity#com.talkfun.cloudlive.activity.SplashActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:32:9-47:20
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:33:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:38:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:talkfunsdk
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:40:13-46:29
+action#android.intent.action.VIEW
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.DEFAULT
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:43:17-76
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:43:27-73
+category#android.intent.category.BROWSABLE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:44:17-78
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:44:27-75
+data
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:45:17-53
+	android:scheme
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:45:23-50
+activity#com.talkfun.cloudlive.activity.LoginActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:48:9-52:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:52:13-49
+	android:launchMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:51:13-44
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:50:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:49:13-51
+activity#com.talkfun.cloudlive.activity.ScanQRLoginActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:53:9-56:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:56:13-49
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:55:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:54:13-57
+activity#com.talkfun.cloudlive.activity.LoginJumpActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:57:9-60:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:60:13-49
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:59:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:58:13-55
+activity#com.talkfun.cloudlive.activity.LiveNativeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:61:9-66:70
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:65:13-49
+	android:launchMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:64:13-43
+	android:windowSoftInputMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:66:13-67
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:63:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:62:13-56
+activity#com.talkfun.cloudlive.activity.PlayDownLoadActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:67:9-70:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:70:13-49
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:69:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:68:13-58
+activity#com.talkfun.cloudlive.activity.PlaybackNativeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:71:9-75:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:75:13-49
+	android:launchMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:74:13-43
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:73:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:72:13-60
+activity#com.talkfun.cloudlive.activity.PlaybackOnlyVideoNativeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:76:9-81:46
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:80:13-50
+	android:launchMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:79:13-43
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:78:13-74
+	android:theme
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:81:13-43
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:77:13-69
+activity#com.talkfun.cloudlive.activity.ApplyForActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:82:9-84:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:83:13-54
+activity#com.talkfun.cloudlive.activity.ScanQRCodeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:85:9-88:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:88:13-49
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:87:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:86:13-56
+activity#com.talkfun.cloudlive.activity.AboutUsActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:89:9-91:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:91:13-49
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:90:13-53
+activity#com.talkfun.cloudlive.activity.LiveLoginActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:92:9-94:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:93:13-55
+activity#com.talkfun.cloudlive.activity.PlaybackLoginActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:95:9-97:52
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:96:13-59
+receiver#com.talkfun.cloudlive.net.NetWorkStateReceiver
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:99:9-103:20
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:99:19-59
+intent-filter#action:name:android.NET.conn.CONNECTIVITY_CHANGE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:100:13-102:29
+action#android.NET.conn.CONNECTIVITY_CHANGE
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:101:17-79
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:101:25-76
+activity#com.talkfun.cloudlive.activity.LiveRtcNativeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:105:9-110:70
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:109:13-50
+	android:launchMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:108:13-43
+	android:windowSoftInputMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:110:13-67
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:107:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:106:13-59
+activity#com.talkfun.cloudlive.activity.LiveMixNativeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:111:9-116:70
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:115:13-50
+	android:launchMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:114:13-43
+	android:windowSoftInputMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:116:13-67
+	android:configChanges
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:113:13-74
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:112:13-59
+activity#com.talkfun.cloudlive.activity.LiveOneToOneNativeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:117:9-121:68
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:119:13-50
+	android:windowSoftInputMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:121:13-56
+	android:theme
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:120:13-43
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:118:13-64
+activity#com.talkfun.cloudlive.activity.LiveOneToMultiNativeActivity
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:132:9-136:79
+	android:screenOrientation
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:134:13-50
+	android:windowSoftInputMode
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:136:13-67
+	android:theme
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:135:13-43
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:133:13-66
+uses-sdk
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.databinding:adapters:3.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\adapters-3.1.2.aar\8fa197d6c1acd0e32c2787f4eb47402c\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\adapters-3.1.2.aar\8fa197d6c1acd0e32c2787f4eb47402c\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-3.1.2.aar\dcb9c167aeb5a8a44cad1b3d52ac1a0a\AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\library-3.1.2.aar\dcb9c167aeb5a8a44cad1b3d52ac1a0a\AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\0ebde9719fa8ca30d7b4a9a37fbcba5b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\0ebde9719fa8ca30d7b4a9a37fbcba5b\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7762fb267c82ded74f2b634c0f33ce2b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7762fb267c82ded74f2b634c0f33ce2b\AndroidManifest.xml:20:5-44
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ded7220eccd3d2c826d61ed79d3d793e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\ded7220eccd3d2c826d61ed79d3d793e\AndroidManifest.xml:20:5-44
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3a1cf2c58ea1f4297f69bd33c55517c0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:mpermission-api:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\mpermission-api-1.0.0.aar\3a1cf2c58ea1f4297f69bd33c55517c0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cde077ac02b077d99545fe150858166a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cde077ac02b077d99545fe150858166a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7ed032674e984caf9e184b725cc579b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\a7ed032674e984caf9e184b725cc579b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0966eb8de7a71afd24f52e0e8051309d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\0966eb8de7a71afd24f52e0e8051309d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\9e2eb205e889eb2f8afb11b56d03b84f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\9e2eb205e889eb2f8afb11b56d03b84f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.5.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\DanmakuFlameMaster-0.5.6.aar\a4bbee1823edcc5bb6a5529a86312b44\AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.5.6] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\DanmakuFlameMaster-0.5.6.aar\a4bbee1823edcc5bb6a5529a86312b44\AndroidManifest.xml:22:5-24:41
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoTabLayout_Lib-2.1.2.aar\c0772ad41a8884fcbf110527628e111a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\FlycoTabLayout_Lib-2.1.2.aar\c0772ad41a8884fcbf110527628e111a\AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\5a2333e438bba398fa047360327d8cb4\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\5a2333e438bba398fa047360327d8cb4\AndroidManifest.xml:5:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\69221d00779077ef3205af82e3ba6bde\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\69221d00779077ef3205af82e3ba6bde\AndroidManifest.xml:19:5-43
+MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\2cc775824e67a085c33aa540a730239d\AndroidManifest.xml:7:5-9:41
+MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\2cc775824e67a085c33aa540a730239d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\394aa4db9378ef11e90a7f3889b36ada\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxbinding-0.4.0.aar\394aa4db9378ef11e90a7f3889b36ada\AndroidManifest.xml:6:5-44
+MERGED from [com.mylhyl:circleDialog:3.0.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-3.0.5.aar\c595f2fb7227a0c80702cbc949a98df3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mylhyl:circleDialog:3.0.5] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\circleDialog-3.0.5.aar\c595f2fb7227a0c80702cbc949a98df3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.huburt-Hu:NewbieGuide:v2.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\NewbieGuide-v2.4.0.aar\8d375fc5f9d264e85bbc925aec356d3a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.huburt-Hu:NewbieGuide:v2.4.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\NewbieGuide-v2.4.0.aar\8d375fc5f9d264e85bbc925aec356d3a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.cpiz.bubbleview:bubbleview:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bubbleview-1.0.2.aar\635a440750d9323ffa2a4753674c3b6f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.cpiz.bubbleview:bubbleview:1.0.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\bubbleview-1.0.2.aar\635a440750d9323ffa2a4753674c3b6f\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoView-2.0.0.aar\abaceaf8fb335b693398c954cce332e6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\PhotoView-2.0.0.aar\abaceaf8fb335b693398c954cce332e6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.tencent.bugly:crashreport:3.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-3.0.1.aar\b4958a1e6126f231cdf60cab380c302c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:3.0.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\crashreport-3.0.1.aar\b4958a1e6126f231cdf60cab380c302c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.7.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.7.1.aar\ee27387e4f5748c87d9593cb7567251a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.7.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.7.1.aar\ee27387e4f5748c87d9593cb7567251a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f4b92737a96c6d07f88b10c4761c7c31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\f4b92737a96c6d07f88b10c4761c7c31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e6e4aea3545ef1a9357655510938c62d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e6e4aea3545ef1a9357655510938c62d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\96b2e4225cf1b32d7b0f5ef8e7c2109e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\96b2e4225cf1b32d7b0f5ef8e7c2109e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0b64a063571bc26286e677c1fe5bcbe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\0b64a063571bc26286e677c1fe5bcbe1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f5dcbd2ed0f7e592340642631795cc29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\f5dcbd2ed0f7e592340642631795cc29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\238fc16d9e2a865bd57f49573c646059\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\238fc16d9e2a865bd57f49573c646059\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4e1c0171f508b8e1243fde32158941ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4e1c0171f508b8e1243fde32158941ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\db5b0efdb4745b256ac52a688ce94333\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\db5b0efdb4745b256ac52a688ce94333\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\70be49c780d96f882fc35f1740844760\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\70be49c780d96f882fc35f1740844760\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\aaf15e58efe5bb494fc45ca8e270278e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\aaf15e58efe5bb494fc45ca8e270278e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\97652b87cbf476cf21ffb2c7d117df8c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\97652b87cbf476cf21ffb2c7d117df8c\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\f428d6b3affea04db8b678820367da64\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\rxandroid-1.1.0.aar\f428d6b3affea04db8b678820367da64\AndroidManifest.xml:19:5-43
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\349f40303a586c9f9062349f325073cf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\349f40303a586c9f9062349f325073cf\AndroidManifest.xml:20:5-44
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+		INJECTED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:128:13-130:58
+	android:resource
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:130:17-55
+	android:name
+		ADDED from F:\androidStudioProject\huantuo\1\demo\app\src\main\AndroidManifest.xml:129:17-67
+activity#com.uuzuche.lib_zxing.activity.CaptureActivity
+ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:12:9-17:63
+	android:screenOrientation
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:15:13-49
+	android:windowSoftInputMode
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:17:13-60
+	android:configChanges
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:14:13-63
+	android:theme
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [cn.yipianfengye.android:zxing-library:2.2] C:\Users\Administrator\.gradle\caches\transforms-1\files-1.1\zxing-library-2.2.aar\b7171b728e719abef069f7881d9bb634\AndroidManifest.xml:13:13-74

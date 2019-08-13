@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.cpiz.bubbleview:bubbleview:1.0.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bubbleview-1.0.2.aar/635a440750d9323ffa2a4753674c3b6f/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bubbleview-1.0.2.aar/635a440750d9323ffa2a4753674c3b6f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/bubbleview-1.0.2.aar/635a440750d9323ffa2a4753674c3b6f/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cpiz.bubbleview/bubbleview/1.0.2/5a1ca11da650c83feca6cdc1b56b6d34a8ed3556/bubbleview-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

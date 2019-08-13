@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    
+
+                                                       
+
+                                                  
+
+                                                                          
+
+                 
+                            
+                                                                  
+           
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_2"
+        android:layout_marginTop="@dimen/dp_2"
+        android:layout_marginRight="@dimen/dp_2"
+        android:layout_marginBottom="@dimen/dp_1" android:tag="layout/item_rtc_video_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_cardview"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            app:cardBackgroundColor="#2D343B"
+            app:cardCornerRadius="@dimen/dp_3"
+            app:layout_constraintDimensionRatio="4:3">
+
+            <FrameLayout
+                android:id="@+id/video_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:tag="binding_1"                                                                                                                                                       />
+
+            <FrameLayout
+                android:id="@+id/all_close"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_all_close_avatar"
+                    android:layout_width="@dimen/dp_70"
+                    android:layout_height="@dimen/dp_70"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/iv_close_video_center"
+                    android:layout_width="@dimen/dp_50"
+                    android:layout_height="@dimen/dp_49"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/item_live_one_to_one_audio"
+                    android:visibility="gone"
+                     />
+                <ProgressBar
+                    android:id="@+id/progress_loading"
+                    android:layout_width="@dimen/dp_60"
+                    android:layout_height="@dimen/dp_60"
+                    android:indeterminateTint="@color/gray"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <com.talkfun.widget.RoundCornerLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|right"
+                android:background="#33020B14"
+                android:tag="binding_2"                                                                  
+                app:cornerBottomLeftRadius="@dimen/dp_3">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxEms="6"
+                    android:maxLines="1"
+                    android:paddingLeft="@dimen/dp_6"
+                    android:paddingTop="@dimen/dp_3"
+                    android:paddingRight="@dimen/dp_6"
+                    android:paddingBottom="@dimen/dp_3"
+                    android:tag="binding_3"                                     
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/sp_12"
+                                                                                                                                                                       />
+            </com.talkfun.widget.RoundCornerLayout>
+
+            <com.talkfun.widget.RoundCornerLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:background="#66020B14"
+                android:orientation="horizontal"
+                android:tag="binding_4"                                                        
+                app:cornerTopRightRadius="@dimen/dp_3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iv_video"
+                        android:layout_width="@dimen/dp_19"
+                        android:layout_height="@dimen/dp_19"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/dp_5"
+                        android:background="@drawable/video_select" />
+
+                    <ImageView
+                        android:id="@+id/iv_audio"
+                        android:layout_width="@dimen/dp_19"
+                        android:layout_height="@dimen/dp_19"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="@dimen/dp_5"
+                        android:background="@drawable/audio_select" />
+                </LinearLayout>
+            </com.talkfun.widget.RoundCornerLayout>
+
+            <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:layout_gravity="center"
+                android:tag="binding_5"                                                       />
+        </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+         
