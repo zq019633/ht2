@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="activity_horizontal_margin">64dp</dimen>
-    <dimen name="activity_small_paint_select_width">150dp</dimen>
-    <dimen name="dialog_chat_send_btn_width">120dp</dimen>
-    <dimen name="operator_btn_height">60dp</dimen>
-    <dimen name="operator_btn_width">60dp</dimen>
-    <dimen name="pop_stroke_cmd_width">500dp</dimen>
-</resources>

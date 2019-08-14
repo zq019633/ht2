@@ -2,7 +2,7 @@ package com.talkfun.cloudlive.util;
 
 import android.content.res.ColorStateList;
 import android.graphics.drawable.Drawable;
-import android.support.v4.graphics.drawable.DrawableCompat;
+import androidx.core.graphics.drawable.DrawableCompat;
 
 /**
  * Created by asus on 2017/3/30.

@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ActivityLiveOneToOneMediaLayoutBindingSw600dpImpl extends ActivityLiveOneToOneMediaLayoutBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -21,10 +21,10 @@ public class ActivityLiveOneToOneMediaLayoutBindingSw600dpImpl extends ActivityL
     // listeners
     // Inverse Binding Event Handlers
 
-    public ActivityLiveOneToOneMediaLayoutBindingSw600dpImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ActivityLiveOneToOneMediaLayoutBindingSw600dpImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 1, sIncludes, sViewsWithIds));
     }
-    private ActivityLiveOneToOneMediaLayoutBindingSw600dpImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ActivityLiveOneToOneMediaLayoutBindingSw600dpImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.FrameLayout) bindings[0]
             );

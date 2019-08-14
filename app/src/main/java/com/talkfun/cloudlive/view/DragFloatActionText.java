@@ -10,7 +10,7 @@ import android.view.animation.DecelerateInterpolator;
 /**
  * Created by ccy on 2017/12/9.
  */
-public class DragFloatActionText extends android.support.v7.widget.AppCompatTextView {
+public class DragFloatActionText extends androidx.appcompat.widget.AppCompatTextView {
 
     private int parentHeight;
     private int parentWidth;

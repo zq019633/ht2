@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.zhy:mpermission-api:1.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mpermission-api-1.0.0.aar/3a1cf2c58ea1f4297f69bd33c55517c0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mpermission-api-1.0.0.aar/3a1cf2c58ea1f4297f69bd33c55517c0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd167a73880282bea210a48de67436ce/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd167a73880282bea210a48de67436ce/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

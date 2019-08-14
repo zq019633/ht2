@@ -1,12 +1,12 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.fragment;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.talkfun.cloudlive.R;

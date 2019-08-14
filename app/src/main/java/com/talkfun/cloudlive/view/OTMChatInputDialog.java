@@ -3,7 +3,7 @@ package com.talkfun.cloudlive.view;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Message;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.Editable;
 import android.text.Selection;
 import android.text.TextUtils;

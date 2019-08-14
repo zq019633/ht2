@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ItemPopDrawBindingImplSw600dpImpl extends ItemPopDrawBindingImpl  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -22,10 +22,10 @@ public class ItemPopDrawBindingImplSw600dpImpl extends ItemPopDrawBindingImpl  {
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemPopDrawBindingImplSw600dpImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemPopDrawBindingImplSw600dpImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
     }
-    private ItemPopDrawBindingImplSw600dpImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemPopDrawBindingImplSw600dpImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.FrameLayout) bindings[0]
             , (android.widget.ImageView) bindings[1]

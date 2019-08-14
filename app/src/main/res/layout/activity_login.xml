@@ -8,7 +8,7 @@
     android:orientation="vertical"
     tools:context="com.talkfun.cloudlive.activity.LoginActivity">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             android:text="@string/scan_login_tip"
             android:textColor="@color/white"
             android:textSize="18sp" />
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
 
     <include

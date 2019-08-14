@@ -1,10 +1,10 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.adapter;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.ImageView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.talkfun.cloudlive.R;

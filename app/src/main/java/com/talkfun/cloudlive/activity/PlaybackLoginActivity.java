@@ -22,7 +22,7 @@ public class PlaybackLoginActivity extends BaseLoginActivity {
 
     @Override
     protected void performChangeMode() {
-        ActivityUtil.jump(this,LiveLoginActivity.class);
+       // ActivityUtil.jump(this,LiveLoginActivity.class);
     }
 
     @Override

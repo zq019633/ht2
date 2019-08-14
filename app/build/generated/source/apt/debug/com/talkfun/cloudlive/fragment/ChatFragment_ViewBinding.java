@@ -1,11 +1,11 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.fragment;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -16,9 +16,9 @@ import java.lang.Override;
 public class ChatFragment_ViewBinding implements Unbinder {
   private ChatFragment target;
 
-  private View view2131296573;
+  private View view7f090141;
 
-  private View view2131296532;
+  private View view7f090117;
 
   @UiThread
   public ChatFragment_ViewBinding(final ChatFragment target, View source) {
@@ -28,7 +28,7 @@ public class ChatFragment_ViewBinding implements Unbinder {
     target.chatLv = Utils.findRequiredViewAsType(source, R.id.chat_lv, "field 'chatLv'", ListView.class);
     view = Utils.findRequiredView(source, R.id.ll_tip_layout, "field 'llReplyTip' and method 'onClick'");
     target.llReplyTip = Utils.castView(view, R.id.ll_tip_layout, "field 'llReplyTip'", LinearLayout.class);
-    view2131296573 = view;
+    view7f090141 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -36,7 +36,7 @@ public class ChatFragment_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.iv_remove, "method 'onClick'");
-    view2131296532 = view;
+    view7f090117 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -55,9 +55,9 @@ public class ChatFragment_ViewBinding implements Unbinder {
     target.chatLv = null;
     target.llReplyTip = null;
 
-    view2131296573.setOnClickListener(null);
-    view2131296573 = null;
-    view2131296532.setOnClickListener(null);
-    view2131296532 = null;
+    view7f090141.setOnClickListener(null);
+    view7f090141 = null;
+    view7f090117.setOnClickListener(null);
+    view7f090117 = null;
   }
 }

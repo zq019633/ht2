@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -33,14 +33,14 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemOneToMultiVideoBindingImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemOneToMultiVideoBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 15, sIncludes, sViewsWithIds));
     }
-    private ItemOneToMultiVideoBindingImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemOneToMultiVideoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.FrameLayout) bindings[8]
             , (com.talkfun.widget.RoundCornerLinearLayout) bindings[2]
-            , (android.support.v7.widget.CardView) bindings[7]
+            , (androidx.cardview.widget.CardView) bindings[7]
             , (android.widget.ImageView) bindings[9]
             , (android.widget.ImageView) bindings[14]
             , (android.widget.ImageView) bindings[6]
@@ -119,33 +119,33 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        int videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNullViewGONEVideoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE = 0;
         com.talkfun.cloudlive.entity.VideoStatusData videoData = mVideoData;
         boolean videoDataJavaLangObjectNull = false;
-        boolean textUtilsIsEmptyVideoDataRtcUserEntityNickname = false;
-        boolean videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNull = false;
-        boolean videoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataRtcUserEntityNickname = false;
-        boolean videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN = false;
-        java.lang.String videoDataRtcUserEntityRole = null;
-        android.view.View videoDataGetVideoView = null;
-        boolean videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNull = false;
-        int textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINMboundView4AndroidColorOtmBottomSpdinBgMboundView4AndroidColorOtmBottomUserBg = 0;
-        com.talkfun.sdk.rtc.entity.RtcUserEntity videoDataGetRtcUserEntity = null;
-        boolean textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN = false;
-        int videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE = 0;
-        int videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNullViewGONEVideoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE = 0;
         java.lang.String videoDataGetRtcUserEntityGetNickname = null;
         int videoDataRtcUserEntityScoreInt2 = 0;
+        boolean textUtilsIsEmptyVideoDataRtcUserEntityNickname = false;
+        boolean videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNull = false;
         boolean videoDataGetRtcUserEntityVideoOpen = false;
         boolean videoDataGetRtcUserEntityJavaLangObjectNull = false;
         boolean videoDataRtcUserEntityJavaLangObjectNull = false;
+        boolean videoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataRtcUserEntityNickname = false;
+        boolean videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN = false;
+        java.lang.String videoDataRtcUserEntityRole = null;
         java.lang.String tvAwardCountAndroidStringXPrefixVideoDataRtcUserEntityScoreInt2 = null;
+        android.view.View videoDataGetVideoView = null;
+        boolean videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNull = false;
+        int textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINMboundView4AndroidColorOtmBottomSpdinBgMboundView4AndroidColorOtmBottomUserBg = 0;
         int videoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE = 0;
         com.talkfun.sdk.rtc.entity.RtcUserEntity videoDataRtcUserEntity = null;
+        com.talkfun.sdk.rtc.entity.RtcUserEntity videoDataGetRtcUserEntity = null;
         int videoDataRtcUserEntityScore = 0;
         java.lang.String videoDataRtcUserEntityNickname = null;
         int videoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataRtcUserEntityNicknameViewGONEViewVISIBLE = 0;
         boolean videoDataGetVideoViewJavaLangObjectNull = false;
         int videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINViewGONEViewVISIBLE = 0;
+        boolean textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN = false;
+        int videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE = 0;
 
         if ((dirtyFlags & 0x3L) != 0) {
 
@@ -155,61 +155,61 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
                 videoDataJavaLangObjectNull = (videoData) == (null);
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataJavaLangObjectNull) {
-                        dirtyFlags |= 0x8L;
-                }
-                else {
-                        dirtyFlags |= 0x4L;
-                }
-            }
-                if (videoData != null) {
-                    // read videoData.getVideoView()
-                    videoDataGetVideoView = videoData.getVideoView();
-                    // read videoData.getRtcUserEntity()
-                    videoDataGetRtcUserEntity = videoData.getRtcUserEntity();
-                    // read videoData.rtcUserEntity
-                    videoDataRtcUserEntity = videoData.getRtcUserEntity();
-                }
-
-
-                // read videoData.getVideoView() == null
-                videoDataGetVideoViewJavaLangObjectNull = (videoDataGetVideoView) == (null);
-                // read videoData.getRtcUserEntity() == null
-                videoDataGetRtcUserEntityJavaLangObjectNull = (videoDataGetRtcUserEntity) == (null);
-                // read videoData.rtcUserEntity == null
-                videoDataRtcUserEntityJavaLangObjectNull = (videoDataRtcUserEntity) == (null);
-            if((dirtyFlags & 0x3L) != 0) {
-                if(videoDataGetVideoViewJavaLangObjectNull) {
-                        dirtyFlags |= 0x2000L;
-                }
-                else {
-                        dirtyFlags |= 0x1000L;
-                }
-            }
-            if((dirtyFlags & 0x3L) != 0) {
-                if(videoDataGetRtcUserEntityJavaLangObjectNull) {
-                        dirtyFlags |= 0x200L;
-                }
-                else {
-                        dirtyFlags |= 0x100L;
-                }
-            }
-            if((dirtyFlags & 0x3L) != 0) {
-                if(videoDataRtcUserEntityJavaLangObjectNull) {
                         dirtyFlags |= 0x20L;
                 }
                 else {
                         dirtyFlags |= 0x10L;
                 }
             }
-                if (videoDataGetRtcUserEntity != null) {
-                    // read videoData.getRtcUserEntity().getNickname()
-                    videoDataGetRtcUserEntityGetNickname = videoDataGetRtcUserEntity.getNickname();
+                if (videoData != null) {
+                    // read videoData.getVideoView()
+                    videoDataGetVideoView = videoData.getVideoView();
+                    // read videoData.rtcUserEntity
+                    videoDataRtcUserEntity = videoData.getRtcUserEntity();
+                    // read videoData.getRtcUserEntity()
+                    videoDataGetRtcUserEntity = videoData.getRtcUserEntity();
                 }
+
+
+                // read videoData.getVideoView() == null
+                videoDataGetVideoViewJavaLangObjectNull = (videoDataGetVideoView) == (null);
+                // read videoData.rtcUserEntity == null
+                videoDataRtcUserEntityJavaLangObjectNull = (videoDataRtcUserEntity) == (null);
+                // read videoData.getRtcUserEntity() == null
+                videoDataGetRtcUserEntityJavaLangObjectNull = (videoDataGetRtcUserEntity) == (null);
+            if((dirtyFlags & 0x3L) != 0) {
+                if(videoDataGetVideoViewJavaLangObjectNull) {
+                        dirtyFlags |= 0x200000L;
+                }
+                else {
+                        dirtyFlags |= 0x100000L;
+                }
+            }
+            if((dirtyFlags & 0x3L) != 0) {
+                if(videoDataRtcUserEntityJavaLangObjectNull) {
+                        dirtyFlags |= 0x80L;
+                }
+                else {
+                        dirtyFlags |= 0x40L;
+                }
+            }
+            if((dirtyFlags & 0x3L) != 0) {
+                if(videoDataGetRtcUserEntityJavaLangObjectNull) {
+                        dirtyFlags |= 0x800L;
+                }
+                else {
+                        dirtyFlags |= 0x400L;
+                }
+            }
                 if (videoDataRtcUserEntity != null) {
                     // read videoData.rtcUserEntity.role
                     videoDataRtcUserEntityRole = videoDataRtcUserEntity.getRole();
                     // read videoData.rtcUserEntity.score
                     videoDataRtcUserEntityScore = videoDataRtcUserEntity.getScore();
+                }
+                if (videoDataGetRtcUserEntity != null) {
+                    // read videoData.getRtcUserEntity().getNickname()
+                    videoDataGetRtcUserEntityGetNickname = videoDataGetRtcUserEntity.getNickname();
                 }
 
 
@@ -221,10 +221,10 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
                 videoDataRtcUserEntityScoreInt2 = (videoDataRtcUserEntityScore) / (2);
             if((dirtyFlags & 0x3L) != 0) {
                 if(textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN) {
-                        dirtyFlags |= 0x800L;
+                        dirtyFlags |= 0x2000L;
                 }
                 else {
-                        dirtyFlags |= 0x400L;
+                        dirtyFlags |= 0x1000L;
                 }
             }
 
@@ -244,22 +244,22 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
                 videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNull = ((videoDataGetRtcUserEntityJavaLangObjectNull) ? (true) : (videoDataGetVideoViewJavaLangObjectNull));
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNull) {
-                        dirtyFlags |= 0x80L;
+                        dirtyFlags |= 0x200L;
                 }
                 else {
-                        dirtyFlags |= 0x40L;
+                        dirtyFlags |= 0x100L;
                 }
             }
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNull) {
-                        dirtyFlags |= 0x8000L;
+                        dirtyFlags |= 0x8L;
                 }
                 else {
-                        dirtyFlags |= 0x4000L;
+                        dirtyFlags |= 0x4L;
                 }
             }
         }
-        if ((dirtyFlags & 0x10L) != 0) {
+        if ((dirtyFlags & 0x40L) != 0) {
 
                 if (videoDataRtcUserEntity != null) {
                     // read videoData.rtcUserEntity.nickname
@@ -277,10 +277,10 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
                 videoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataRtcUserEntityNickname = ((videoDataRtcUserEntityJavaLangObjectNull) ? (true) : (textUtilsIsEmptyVideoDataRtcUserEntityNickname));
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataRtcUserEntityNickname) {
-                        dirtyFlags |= 0x80000L;
+                        dirtyFlags |= 0x20000L;
                 }
                 else {
-                        dirtyFlags |= 0x40000L;
+                        dirtyFlags |= 0x10000L;
                 }
             }
 
@@ -290,41 +290,41 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
         }
         // batch finished
 
-        if ((dirtyFlags & 0x3L) != 0) {
-
-                // read videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN)
-                videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN = ((videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNull) ? (true) : (textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN));
-            if((dirtyFlags & 0x3L) != 0) {
-                if(videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN) {
-                        dirtyFlags |= 0x200000L;
-                }
-                else {
-                        dirtyFlags |= 0x100000L;
-                }
-            }
-
-
-                // read videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
-                videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINViewGONEViewVISIBLE = ((videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN) ? (android.view.View.GONE) : (android.view.View.VISIBLE));
-        }
-        if ((dirtyFlags & 0x4000L) != 0) {
+        if ((dirtyFlags & 0x4L) != 0) {
 
                 if (videoDataGetRtcUserEntity != null) {
                     // read videoData.getRtcUserEntity().videoOpen
                     videoDataGetRtcUserEntityVideoOpen = videoDataGetRtcUserEntity.isVideoOpen();
                 }
-            if((dirtyFlags & 0x4000L) != 0) {
+            if((dirtyFlags & 0x4L) != 0) {
                 if(videoDataGetRtcUserEntityVideoOpen) {
-                        dirtyFlags |= 0x20000L;
+                        dirtyFlags |= 0x8000L;
                 }
                 else {
-                        dirtyFlags |= 0x10000L;
+                        dirtyFlags |= 0x4000L;
                 }
             }
 
 
                 // read videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
                 videoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE = ((videoDataGetRtcUserEntityVideoOpen) ? (android.view.View.VISIBLE) : (android.view.View.GONE));
+        }
+        if ((dirtyFlags & 0x3L) != 0) {
+
+                // read videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN)
+                videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN = ((videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNull) ? (true) : (textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN));
+            if((dirtyFlags & 0x3L) != 0) {
+                if(videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN) {
+                        dirtyFlags |= 0x80000L;
+                }
+                else {
+                        dirtyFlags |= 0x40000L;
+                }
+            }
+
+
+                // read videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
+                videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINViewGONEViewVISIBLE = ((videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMIN) ? (android.view.View.GONE) : (android.view.View.VISIBLE));
         }
 
         if ((dirtyFlags & 0x3L) != 0) {
@@ -338,9 +338,9 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
 
             this.awardLl.setVisibility(videoDataJavaLangObjectNullBooleanTrueVideoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINViewGONEViewVISIBLE);
             this.ivAvatar.setVisibility(videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE);
-            android.databinding.adapters.ViewBindingAdapter.setBackground(this.mboundView4, android.databinding.adapters.Converters.convertColorToDrawable(textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINMboundView4AndroidColorOtmBottomSpdinBgMboundView4AndroidColorOtmBottomUserBg));
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.tvAwardCount, tvAwardCountAndroidStringXPrefixVideoDataRtcUserEntityScoreInt2);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.tvName, videoDataGetRtcUserEntityGetNickname);
+            androidx.databinding.adapters.ViewBindingAdapter.setBackground(this.mboundView4, androidx.databinding.adapters.Converters.convertColorToDrawable(textUtilsEqualsVideoDataRtcUserEntityRoleMemberRoleMEMBERROLESUPERADMINMboundView4AndroidColorOtmBottomSpdinBgMboundView4AndroidColorOtmBottomUserBg));
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvAwardCount, tvAwardCountAndroidStringXPrefixVideoDataRtcUserEntityScoreInt2);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvName, videoDataGetRtcUserEntityGetNickname);
             this.tvName.setVisibility(videoDataRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataRtcUserEntityNicknameViewGONEViewVISIBLE);
             this.videoLayout.setVisibility(videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNullViewGONEVideoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE);
         }
@@ -352,26 +352,26 @@ public class ItemOneToMultiVideoBindingImpl extends ItemOneToMultiVideoBinding  
     /* flag mapping
         flag 0 (0x1L): videoData
         flag 1 (0x2L): null
-        flag 2 (0x3L): videoData == null ? true : videoData.rtcUserEntity == null
-        flag 3 (0x4L): videoData == null ? true : videoData.rtcUserEntity == null
-        flag 4 (0x5L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname)
-        flag 5 (0x6L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname)
-        flag 6 (0x7L): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN)
-        flag 7 (0x8L): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN)
-        flag 8 (0x9L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
-        flag 9 (0xaL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
-        flag 10 (0xbL): TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? @android:color/otm_bottom_spdin_bg : @android:color/otm_bottom_user_bg
-        flag 11 (0xcL): TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? @android:color/otm_bottom_spdin_bg : @android:color/otm_bottom_user_bg
-        flag 12 (0xdL): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
-        flag 13 (0xeL): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
-        flag 14 (0xfL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 15 (0x10L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 16 (0x11L): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 17 (0x12L): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 18 (0x13L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname) ? View.GONE : View.VISIBLE
-        flag 19 (0x14L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname) ? View.GONE : View.VISIBLE
-        flag 20 (0x15L): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
-        flag 21 (0x16L): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
+        flag 2 (0x3L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 3 (0x4L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 4 (0x5L): videoData == null ? true : videoData.rtcUserEntity == null
+        flag 5 (0x6L): videoData == null ? true : videoData.rtcUserEntity == null
+        flag 6 (0x7L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname)
+        flag 7 (0x8L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname)
+        flag 8 (0x9L): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN)
+        flag 9 (0xaL): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN)
+        flag 10 (0xbL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
+        flag 11 (0xcL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
+        flag 12 (0xdL): TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? @android:color/otm_bottom_spdin_bg : @android:color/otm_bottom_user_bg
+        flag 13 (0xeL): TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? @android:color/otm_bottom_spdin_bg : @android:color/otm_bottom_user_bg
+        flag 14 (0xfL): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 15 (0x10L): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 16 (0x11L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname) ? View.GONE : View.VISIBLE
+        flag 17 (0x12L): videoData.rtcUserEntity == null ? true : TextUtils.isEmpty(videoData.rtcUserEntity.nickname) ? View.GONE : View.VISIBLE
+        flag 18 (0x13L): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
+        flag 19 (0x14L): videoData == null ? true : videoData.rtcUserEntity == null ? true : TextUtils.equals(videoData.rtcUserEntity.role, MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
+        flag 20 (0x15L): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
+        flag 21 (0x16L): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
     flag mapping end*/
     //end
 }

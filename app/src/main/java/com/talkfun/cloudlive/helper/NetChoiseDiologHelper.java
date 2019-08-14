@@ -2,7 +2,7 @@ package com.talkfun.cloudlive.helper;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 import android.widget.Toast;
 
 import com.talkfun.cloudlive.R;

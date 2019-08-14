@@ -109,12 +109,10 @@ public class LoginJumpActivity extends BaseActivity {
             if (type == PlayType.LIVE) {
                 if (modeType == LiveModeType.SMALL_CLASS) {
                     if (smallType == SmallClassType.ONE_V_ONE) {
-                        targetClass = LiveOneToOneNativeActivity.class;//1V1 小班
                     } else {
-                        targetClass = LiveOneToMultiNativeActivity.class;//1V6 1VN 小班
                     }
                 } else if (modeType == LiveModeType.LARGE_CLASS_INTERACTION) {
-                    targetClass = LiveMixNativeActivity.class;//大班互动模式
+                    //targetClass = LiveMixNativeActivity.class;//大班互动模式
                 } else {
                     targetClass = LiveNativeActivity.class;//大班
                 }

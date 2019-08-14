@@ -1,8 +1,8 @@
 package com.talkfun.cloudlive.base;
 
 import android.app.Application;
-import android.arch.lifecycle.AndroidViewModel;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
+import androidx.annotation.NonNull;
 
 /**
  * Created by ccy on 2019/5/8/16:45

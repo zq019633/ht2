@@ -6,15 +6,16 @@
     android:background="@drawable/gradient_bg_bottom">
 
 
-    <com.talkfun.cloudlive.view.FullScreenInputBarView
-        android:id="@+id/ll_input_fullScreen"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_marginLeft="@dimen/fullScreen_input_marginLeft"
-        android:layout_marginRight="@dimen/fullScreen_input_marginRight"
-        android:layout_toLeftOf="@+id/ll_bottom_menu"
-       ></com.talkfun.cloudlive.view.FullScreenInputBarView>
+    <!--<com.talkfun.cloudlive.view.FullScreenInputBarView-->
+     <!---->
+        <!--android:id="@+id/ll_input_fullScreen"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="@dimen/fullScreen_input_marginLeft"-->
+        <!--android:layout_marginRight="@dimen/fullScreen_input_marginRight"-->
+        <!--android:layout_toLeftOf="@+id/ll_bottom_menu"-->
+       <!--&gt;</com.talkfun.cloudlive.view.FullScreenInputBarView>-->
 
     <LinearLayout
         android:id="@+id/ll_bottom_menu"
@@ -31,6 +32,7 @@
             android:src="@mipmap/net_status_icon" />
 
         <ImageView
+            android:visibility="gone"
             android:id="@+id/iv_danmu_switch"
             style="@style/menu_image_style"
             android:src="@drawable/danmu_selected" />

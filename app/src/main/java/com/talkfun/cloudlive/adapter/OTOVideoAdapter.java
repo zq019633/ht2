@@ -1,12 +1,14 @@
 package com.talkfun.cloudlive.adapter;//package com.talkfun.cloud.adapter;
 
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
+import androidx.databinding.library.baseAdapters.BR;
+
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.android.databinding.library.baseAdapters.BR;
+
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.base.BaseDatabindingAdapter;
 import com.talkfun.cloudlive.databinding.ItemRtcVideoBinding;
@@ -48,53 +50,53 @@ public class OTOVideoAdapter extends BaseDatabindingAdapter<VideoStatusData> {
         View view = data.getVideoView();
         boolean isLoading = data.getVideoOfflineStatus() == 1;
         final RtcUserEntity entity = data.getRtcUserEntity();
-        final ItemRtcVideoBinding binding = (ItemRtcVideoBinding) holder.getBinding();
+       // final ItemRtcVideoBinding binding = (ItemRtcVideoBinding) holder.getBinding();
         if (payloads.size() != 0 && ((int) payloads.get(0)) != -1) {//局部刷新
             int type = (int) payloads.get(0);
             switch (type) {
                 case PARTIAL_REFRESH:
-                    setValue(entity, isLoading, binding);
+                    //setValue(entity, isLoading, binding);
                     break;
                 default:
             }
             return;
         }
         if (view == null) {
-            binding.allClose.setBackgroundResource(R.color.item_one_to_one_video_bg);
-            binding.ivAllCloseAvatar.setVisibility(View.GONE);
-            binding.videoLayout.removeAllViews();
-            binding.tvName.setVisibility(View.GONE);
-            binding.ivAvatar.setImageResource(entity.getRole() == MemberRole.MEMBER_ROLE_SUPER_ADMIN ? R.mipmap.item_live_one_to_one_video_default_avatar_spadmin : R.mipmap.item_live_one_to_one_video_default_avatar_user);
+//            binding.allClose.setBackgroundResource(R.color.item_one_to_one_video_bg);
+//            binding.ivAllCloseAvatar.setVisibility(View.GONE);
+//            binding.videoLayout.removeAllViews();
+//            binding.tvName.setVisibility(View.GONE);
+//            binding.ivAvatar.setImageResource(entity.getRole() == MemberRole.MEMBER_ROLE_SUPER_ADMIN ? R.mipmap.item_live_one_to_one_video_default_avatar_spadmin : R.mipmap.item_live_one_to_one_video_default_avatar_user);
             return;
         }
-        if (view.getParent() != null && view.getParent() == binding.videoLayout) {
-            return;
-        } else {
-            if (view.getParent() != null) {
-                ViewGroup viewParent = (ViewGroup) view.getParent();
-                viewParent.removeView(view);
-            }
-            binding.videoLayout.removeAllViews();
-        }
-        binding.videoLayout.addView(view, new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        setValue(entity, isLoading, binding);
-        binding.ivAudio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (mediaSwitchListener != null && entity.isMe()) {
-                    mediaSwitchListener.mediaSwitch(AUDIO, entity.isAudioOpen(), entity.getAudio());
-                }
-            }
-        });
-        binding.ivVideo.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        if (mediaSwitchListener != null && entity.isMe()) {
-                            mediaSwitchListener.mediaSwitch(VIDEO, entity.isVideoOpen(), entity.getVideo());
-                        }
-                    }
-                });
+//        if (view.getParent() != null && view.getParent() == binding.videoLayout) {
+//            return;
+//        } else {
+//            if (view.getParent() != null) {
+//                ViewGroup viewParent = (ViewGroup) view.getParent();
+//                viewParent.removeView(view);
+//            }
+//            binding.videoLayout.removeAllViews();
+//        }
+//        binding.videoLayout.addView(view, new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+//        setValue(entity, isLoading, binding);
+//        binding.ivAudio.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (mediaSwitchListener != null && entity.isMe()) {
+//                    mediaSwitchListener.mediaSwitch(AUDIO, entity.isAudioOpen(), entity.getAudio());
+//                }
+//            }
+//        });
+//        binding.ivVideo.setOnClickListener(
+//                new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        if (mediaSwitchListener != null && entity.isMe()) {
+//                            mediaSwitchListener.mediaSwitch(VIDEO, entity.isVideoOpen(), entity.getVideo());
+//                        }
+//                    }
+//                });
     }
 
     private void setValue(RtcUserEntity entity, boolean isLoading, ItemRtcVideoBinding binding) {

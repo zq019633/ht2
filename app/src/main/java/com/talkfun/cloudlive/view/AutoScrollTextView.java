@@ -13,7 +13,7 @@ import android.util.DisplayMetrics;
  * 自动滚动
  * Created by ccy on 2019/1/23/17:05
  */
-public class AutoScrollTextView extends android.support.v7.widget.AppCompatTextView /*implements View.OnClickListener*/ {
+public class AutoScrollTextView extends androidx.appcompat.widget.AppCompatTextView /*implements View.OnClickListener*/ {
     public final static String TAG = AutoScrollTextView.class.getSimpleName();
 
     private float textLength = 0f;//文本长度

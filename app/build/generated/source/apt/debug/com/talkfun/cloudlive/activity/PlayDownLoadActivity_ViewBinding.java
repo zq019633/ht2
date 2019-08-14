@@ -1,8 +1,6 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.activity;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -11,6 +9,8 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -21,13 +21,13 @@ import java.lang.Override;
 public class PlayDownLoadActivity_ViewBinding implements Unbinder {
   private PlayDownLoadActivity target;
 
-  private View view2131296824;
+  private View view7f090246;
 
-  private View view2131296505;
+  private View view7f0900fc;
 
-  private View view2131296345;
+  private View view7f090059;
 
-  private View view2131296501;
+  private View view7f0900f8;
 
   @UiThread
   public PlayDownLoadActivity_ViewBinding(PlayDownLoadActivity target) {
@@ -43,7 +43,7 @@ public class PlayDownLoadActivity_ViewBinding implements Unbinder {
     target.rl_editor = Utils.findRequiredViewAsType(source, R.id.rl_editor, "field 'rl_editor'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.tv_editor, "field 'tv_editor' and method 'cancel'");
     target.tv_editor = Utils.castView(view, R.id.tv_editor, "field 'tv_editor'", TextView.class);
-    view2131296824 = view;
+    view7f090246 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class PlayDownLoadActivity_ViewBinding implements Unbinder {
     target.rlDelete = Utils.findRequiredViewAsType(source, R.id.rl_editor_s, "field 'rlDelete'", RelativeLayout.class);
     view = Utils.findRequiredView(source, R.id.iv_delete, "field 'iv_delete' and method 'editor'");
     target.iv_delete = Utils.castView(view, R.id.iv_delete, "field 'iv_delete'", ImageView.class);
-    view2131296505 = view;
+    view7f0900fc = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -63,7 +63,7 @@ public class PlayDownLoadActivity_ViewBinding implements Unbinder {
     });
     target.pb_delete = Utils.findRequiredViewAsType(source, R.id.pb_delete, "field 'pb_delete'", ProgressBar.class);
     view = Utils.findRequiredView(source, R.id.btn_delete, "method 'tv_delete'");
-    view2131296345 = view;
+    view7f090059 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -71,7 +71,7 @@ public class PlayDownLoadActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.iv_back, "method 'back'");
-    view2131296501 = view;
+    view7f0900f8 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -95,13 +95,13 @@ public class PlayDownLoadActivity_ViewBinding implements Unbinder {
     target.iv_delete = null;
     target.pb_delete = null;
 
-    view2131296824.setOnClickListener(null);
-    view2131296824 = null;
-    view2131296505.setOnClickListener(null);
-    view2131296505 = null;
-    view2131296345.setOnClickListener(null);
-    view2131296345 = null;
-    view2131296501.setOnClickListener(null);
-    view2131296501 = null;
+    view7f090246.setOnClickListener(null);
+    view7f090246 = null;
+    view7f0900fc.setOnClickListener(null);
+    view7f0900fc = null;
+    view7f090059.setOnClickListener(null);
+    view7f090059 = null;
+    view7f0900f8.setOnClickListener(null);
+    view7f0900f8 = null;
   }
 }

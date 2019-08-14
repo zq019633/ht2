@@ -1,7 +1,7 @@
 package com.talkfun.cloudlive.adapter;//package com.talkfun.cloud.adapter;
 
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.ViewGroup;

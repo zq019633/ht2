@@ -1,14 +1,14 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.activity;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -16,28 +16,27 @@ import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.view.PlaybackMessageView;
 import java.lang.IllegalStateException;
 import java.lang.Override;
-import master.flame.danmaku.ui.widget.DanmakuView;
 
 public class PlaybackNativeActivity_ViewBinding implements Unbinder {
   private PlaybackNativeActivity target;
 
-  private View view2131296869;
+  private View view7f090274;
 
-  private View view2131296529;
+  private View view7f090114;
 
-  private View view2131296514;
+  private View view7f090105;
 
-  private View view2131296843;
+  private View view7f090259;
 
-  private View view2131296504;
+  private View view7f0900d3;
 
-  private View view2131296466;
+  private View view7f0900be;
 
-  private View view2131296446;
+  private View view7f09016f;
 
-  private View view2131296617;
+  private View view7f090116;
 
-  private View view2131296531;
+  private View view7f0900fb;
 
   @UiThread
   public PlaybackNativeActivity_ViewBinding(PlaybackNativeActivity target) {
@@ -52,7 +51,7 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
     target.operationContainer = Utils.findRequiredViewAsType(source, R.id.operation_btn_container, "field 'operationContainer'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.video_visibility_iv, "field 'videoVisibleIv' and method 'onClick'");
     target.videoVisibleIv = Utils.castView(view, R.id.video_visibility_iv, "field 'videoVisibleIv'", ImageView.class);
-    view2131296869 = view;
+    view7f090274 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -63,7 +62,7 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
     target.seekBar = Utils.findRequiredViewAsType(source, R.id.seek_bar, "field 'seekBar'", SeekBar.class);
     view = Utils.findRequiredView(source, R.id.iv_play, "field 'playBtn' and method 'onClick'");
     target.playBtn = Utils.castView(view, R.id.iv_play, "field 'playBtn'", ImageView.class);
-    view2131296529 = view;
+    view7f090114 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -74,7 +73,7 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
     target.currentDuration = Utils.findRequiredViewAsType(source, R.id.current_duration, "field 'currentDuration'", TextView.class);
     view = Utils.findRequiredView(source, R.id.iv_go_back, "field 'goBack' and method 'onClick'");
     target.goBack = Utils.castView(view, R.id.iv_go_back, "field 'goBack'", ImageView.class);
-    view2131296514 = view;
+    view7f090105 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -85,17 +84,7 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
     target.mPlaybackMessageView = Utils.findRequiredViewAsType(source, R.id.tab_container, "field 'mPlaybackMessageView'", PlaybackMessageView.class);
     view = Utils.findRequiredView(source, R.id.tv_speed, "field 'tvSpeed' and method 'onClick'");
     target.tvSpeed = Utils.castView(view, R.id.tv_speed, "field 'tvSpeed'", TextView.class);
-    view2131296843 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onClick(p0);
-      }
-    });
-    target.danmakuView = Utils.findRequiredViewAsType(source, R.id.danmaku_view, "field 'danmakuView'", DanmakuView.class);
-    view = Utils.findRequiredView(source, R.id.iv_danmu_switch, "field 'ivDanmuSwitch' and method 'onClick'");
-    target.ivDanmuSwitch = Utils.castView(view, R.id.iv_danmu_switch, "field 'ivDanmuSwitch'", ImageView.class);
-    view2131296504 = view;
+    view7f090259 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -103,7 +92,7 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.fullScreen_iv, "method 'onClick'");
-    view2131296466 = view;
+    view7f0900d3 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -111,7 +100,7 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.exchange, "method 'onClick'");
-    view2131296446 = view;
+    view7f0900be = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -119,7 +108,7 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.network_choice_iv, "method 'onClick'");
-    view2131296617 = view;
+    view7f09016f = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -127,7 +116,15 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.iv_refresh, "method 'onClick'");
-    view2131296531 = view;
+    view7f090116 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onClick(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.iv_danmu_switch, "method 'onClick'");
+    view7f0900fb = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -154,26 +151,24 @@ public class PlaybackNativeActivity_ViewBinding implements Unbinder {
     target.titleBar = null;
     target.mPlaybackMessageView = null;
     target.tvSpeed = null;
-    target.danmakuView = null;
-    target.ivDanmuSwitch = null;
 
-    view2131296869.setOnClickListener(null);
-    view2131296869 = null;
-    view2131296529.setOnClickListener(null);
-    view2131296529 = null;
-    view2131296514.setOnClickListener(null);
-    view2131296514 = null;
-    view2131296843.setOnClickListener(null);
-    view2131296843 = null;
-    view2131296504.setOnClickListener(null);
-    view2131296504 = null;
-    view2131296466.setOnClickListener(null);
-    view2131296466 = null;
-    view2131296446.setOnClickListener(null);
-    view2131296446 = null;
-    view2131296617.setOnClickListener(null);
-    view2131296617 = null;
-    view2131296531.setOnClickListener(null);
-    view2131296531 = null;
+    view7f090274.setOnClickListener(null);
+    view7f090274 = null;
+    view7f090114.setOnClickListener(null);
+    view7f090114 = null;
+    view7f090105.setOnClickListener(null);
+    view7f090105 = null;
+    view7f090259.setOnClickListener(null);
+    view7f090259 = null;
+    view7f0900d3.setOnClickListener(null);
+    view7f0900d3 = null;
+    view7f0900be.setOnClickListener(null);
+    view7f0900be = null;
+    view7f09016f.setOnClickListener(null);
+    view7f09016f = null;
+    view7f090116.setOnClickListener(null);
+    view7f090116 = null;
+    view7f0900fb.setOnClickListener(null);
+    view7f0900fb = null;
   }
 }

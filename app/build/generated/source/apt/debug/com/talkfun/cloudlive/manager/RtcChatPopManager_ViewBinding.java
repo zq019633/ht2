@@ -1,12 +1,12 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.manager;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -17,9 +17,9 @@ import java.lang.Override;
 public class RtcChatPopManager_ViewBinding implements Unbinder {
   private RtcChatPopManager target;
 
-  private View view2131296370;
+  private View view7f090072;
 
-  private View view2131296734;
+  private View view7f0901e6;
 
   @UiThread
   public RtcChatPopManager_ViewBinding(final RtcChatPopManager target, View source) {
@@ -29,7 +29,7 @@ public class RtcChatPopManager_ViewBinding implements Unbinder {
     target.mChatLV = Utils.findRequiredViewAsType(source, R.id.small_room_chat_lv, "field 'mChatLV'", ListView.class);
     view = Utils.findRequiredView(source, R.id.chat_message_edit, "field 'mChatMessageTV' and method 'onClick'");
     target.mChatMessageTV = Utils.castView(view, R.id.chat_message_edit, "field 'mChatMessageTV'", TextView.class);
-    view2131296370 = view;
+    view7f090072 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -38,7 +38,7 @@ public class RtcChatPopManager_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.send_message_btn, "field 'sendMessageBtn' and method 'onClick'");
     target.sendMessageBtn = Utils.castView(view, R.id.send_message_btn, "field 'sendMessageBtn'", Button.class);
-    view2131296734 = view;
+    view7f0901e6 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -58,9 +58,9 @@ public class RtcChatPopManager_ViewBinding implements Unbinder {
     target.mChatMessageTV = null;
     target.sendMessageBtn = null;
 
-    view2131296370.setOnClickListener(null);
-    view2131296370 = null;
-    view2131296734.setOnClickListener(null);
-    view2131296734 = null;
+    view7f090072.setOnClickListener(null);
+    view7f090072 = null;
+    view7f0901e6.setOnClickListener(null);
+    view7f0901e6 = null;
   }
 }

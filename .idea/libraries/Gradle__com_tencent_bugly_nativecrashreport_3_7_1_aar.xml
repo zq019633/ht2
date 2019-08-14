@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.tencent.bugly:nativecrashreport:3.7.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.7.1.aar/ee27387e4f5748c87d9593cb7567251a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/nativecrashreport-3.7.1.aar/ee27387e4f5748c87d9593cb7567251a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b54119c36721c4e96c30b19d2ac8a60/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2b54119c36721c4e96c30b19d2ac8a60/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

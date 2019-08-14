@@ -1,14 +1,14 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.dialog;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -19,7 +19,7 @@ import java.lang.Override;
 public class GroupChatDialogFragment_ViewBinding implements Unbinder {
   private GroupChatDialogFragment target;
 
-  private View view2131296733;
+  private View view7f0901e5;
 
   @UiThread
   public GroupChatDialogFragment_ViewBinding(final GroupChatDialogFragment target, View source) {
@@ -31,7 +31,7 @@ public class GroupChatDialogFragment_ViewBinding implements Unbinder {
     target.sendFlower = Utils.findRequiredViewAsType(source, R.id.input, "field 'sendFlower'", RelativeLayout.class);
     view = Utils.findRequiredView(source, R.id.send_btn, "field 'sendBtn' and method 'onClcik'");
     target.sendBtn = Utils.castView(view, R.id.send_btn, "field 'sendBtn'", TextView.class);
-    view2131296733 = view;
+    view7f0901e5 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -56,7 +56,7 @@ public class GroupChatDialogFragment_ViewBinding implements Unbinder {
     target.flower = null;
     target.redDot = null;
 
-    view2131296733.setOnClickListener(null);
-    view2131296733 = null;
+    view7f0901e5.setOnClickListener(null);
+    view7f0901e5 = null;
   }
 }

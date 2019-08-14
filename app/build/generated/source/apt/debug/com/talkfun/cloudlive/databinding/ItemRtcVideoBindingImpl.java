@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -24,7 +24,7 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
     }
     // views
     @NonNull
-    private final android.support.constraint.ConstraintLayout mboundView0;
+    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     @NonNull
     private final com.talkfun.widget.RoundCornerLayout mboundView2;
     @NonNull
@@ -34,13 +34,13 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemRtcVideoBindingImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemRtcVideoBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 13, sIncludes, sViewsWithIds));
     }
-    private ItemRtcVideoBindingImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemRtcVideoBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.FrameLayout) bindings[7]
-            , (android.support.v7.widget.CardView) bindings[6]
+            , (androidx.cardview.widget.CardView) bindings[6]
             , (android.widget.ImageView) bindings[8]
             , (android.widget.ImageView) bindings[12]
             , (android.widget.ImageView) bindings[5]
@@ -51,7 +51,7 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
             , (android.widget.FrameLayout) bindings[1]
             );
         this.ivAvatar.setTag(null);
-        this.mboundView0 = (android.support.constraint.ConstraintLayout) bindings[0];
+        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.mboundView2 = (com.talkfun.widget.RoundCornerLayout) bindings[2];
         this.mboundView2.setTag(null);
@@ -117,23 +117,23 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        int videoDataGetVideoViewJavaLangObjectNullViewGONEViewVISIBLE = 0;
+        int videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNullViewGONEVideoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE = 0;
         com.talkfun.cloudlive.entity.VideoStatusData videoData = mVideoData;
+        java.lang.String videoDataGetRtcUserEntityGetNickname = null;
+        int videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataGetRtcUserEntityGetNicknameViewGONEViewVISIBLE = 0;
         android.view.View videoDataGetVideoView = null;
         boolean videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataGetRtcUserEntityGetNickname = false;
         boolean videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNull = false;
-        com.talkfun.sdk.rtc.entity.RtcUserEntity videoDataGetRtcUserEntity = null;
-        int videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE = 0;
-        int videoDataGetVideoViewJavaLangObjectNullViewGONEViewVISIBLE = 0;
-        int videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNullViewGONEVideoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE = 0;
-        java.lang.String videoDataGetRtcUserEntityGetNickname = null;
-        int videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataGetRtcUserEntityGetNicknameViewGONEViewVISIBLE = 0;
         boolean videoDataGetRtcUserEntityVideoOpen = false;
         boolean videoDataGetRtcUserEntityJavaLangObjectNull = false;
-        boolean textUtilsIsEmptyVideoDataGetRtcUserEntityGetNickname = false;
         boolean VideoDataGetRtcUserEntityJavaLangObjectNull1 = false;
+        boolean textUtilsIsEmptyVideoDataGetRtcUserEntityGetNickname = false;
         int videoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE = 0;
+        com.talkfun.sdk.rtc.entity.RtcUserEntity videoDataGetRtcUserEntity = null;
         boolean videoDataGetVideoViewJavaLangObjectNull = false;
         int videoDataGetRtcUserEntityJavaLangObjectNullViewVISIBLEViewGONE = 0;
+        int videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE = 0;
 
         if ((dirtyFlags & 0x3L) != 0) {
 
@@ -155,30 +155,30 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
                 VideoDataGetRtcUserEntityJavaLangObjectNull1 = (videoDataGetRtcUserEntity) != (null);
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataGetVideoViewJavaLangObjectNull) {
-                        dirtyFlags |= 0x80L;
-                        dirtyFlags |= 0x200L;
+                        dirtyFlags |= 0x8L;
+                        dirtyFlags |= 0x20000L;
                 }
                 else {
-                        dirtyFlags |= 0x40L;
-                        dirtyFlags |= 0x100L;
+                        dirtyFlags |= 0x4L;
+                        dirtyFlags |= 0x10000L;
                 }
             }
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataGetRtcUserEntityJavaLangObjectNull) {
-                        dirtyFlags |= 0x8L;
-                        dirtyFlags |= 0x20L;
+                        dirtyFlags |= 0x200L;
+                        dirtyFlags |= 0x800L;
                 }
                 else {
-                        dirtyFlags |= 0x4L;
-                        dirtyFlags |= 0x10L;
+                        dirtyFlags |= 0x100L;
+                        dirtyFlags |= 0x400L;
                 }
             }
             if((dirtyFlags & 0x3L) != 0) {
                 if(VideoDataGetRtcUserEntityJavaLangObjectNull1) {
-                        dirtyFlags |= 0x20000L;
+                        dirtyFlags |= 0x8000L;
                 }
                 else {
-                        dirtyFlags |= 0x10000L;
+                        dirtyFlags |= 0x4000L;
                 }
             }
                 if (videoDataGetRtcUserEntity != null) {
@@ -187,10 +187,10 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
                 }
 
 
-                // read videoData.getVideoView() == null ? View.VISIBLE : View.GONE
-                videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE = ((videoDataGetVideoViewJavaLangObjectNull) ? (android.view.View.VISIBLE) : (android.view.View.GONE));
                 // read videoData.getVideoView() == null ? View.GONE : View.VISIBLE
                 videoDataGetVideoViewJavaLangObjectNullViewGONEViewVISIBLE = ((videoDataGetVideoViewJavaLangObjectNull) ? (android.view.View.GONE) : (android.view.View.VISIBLE));
+                // read videoData.getVideoView() == null ? View.VISIBLE : View.GONE
+                videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE = ((videoDataGetVideoViewJavaLangObjectNull) ? (android.view.View.VISIBLE) : (android.view.View.GONE));
                 // read videoData.getRtcUserEntity() != null ? View.VISIBLE : View.GONE
                 videoDataGetRtcUserEntityJavaLangObjectNullViewVISIBLEViewGONE = ((VideoDataGetRtcUserEntityJavaLangObjectNull1) ? (android.view.View.VISIBLE) : (android.view.View.GONE));
         }
@@ -202,14 +202,14 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
                 videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNull = ((videoDataGetRtcUserEntityJavaLangObjectNull) ? (true) : (videoDataGetVideoViewJavaLangObjectNull));
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNull) {
-                        dirtyFlags |= 0x800L;
+                        dirtyFlags |= 0x20L;
                 }
                 else {
-                        dirtyFlags |= 0x400L;
+                        dirtyFlags |= 0x10L;
                 }
             }
         }
-        if ((dirtyFlags & 0x4L) != 0) {
+        if ((dirtyFlags & 0x100L) != 0) {
 
                 // read TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname())
                 textUtilsIsEmptyVideoDataGetRtcUserEntityGetNickname = android.text.TextUtils.isEmpty(videoDataGetRtcUserEntityGetNickname);
@@ -221,10 +221,10 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
                 videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataGetRtcUserEntityGetNickname = ((videoDataGetRtcUserEntityJavaLangObjectNull) ? (true) : (textUtilsIsEmptyVideoDataGetRtcUserEntityGetNickname));
             if((dirtyFlags & 0x3L) != 0) {
                 if(videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataGetRtcUserEntityGetNickname) {
-                        dirtyFlags |= 0x2000L;
+                        dirtyFlags |= 0x80L;
                 }
                 else {
-                        dirtyFlags |= 0x1000L;
+                        dirtyFlags |= 0x40L;
                 }
             }
 
@@ -234,18 +234,18 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
         }
         // batch finished
 
-        if ((dirtyFlags & 0x400L) != 0) {
+        if ((dirtyFlags & 0x10L) != 0) {
 
                 if (videoDataGetRtcUserEntity != null) {
                     // read videoData.getRtcUserEntity().videoOpen
                     videoDataGetRtcUserEntityVideoOpen = videoDataGetRtcUserEntity.isVideoOpen();
                 }
-            if((dirtyFlags & 0x400L) != 0) {
+            if((dirtyFlags & 0x10L) != 0) {
                 if(videoDataGetRtcUserEntityVideoOpen) {
-                        dirtyFlags |= 0x8000L;
+                        dirtyFlags |= 0x2000L;
                 }
                 else {
-                        dirtyFlags |= 0x4000L;
+                        dirtyFlags |= 0x1000L;
                 }
             }
 
@@ -266,7 +266,7 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
             this.ivAvatar.setVisibility(videoDataGetVideoViewJavaLangObjectNullViewVISIBLEViewGONE);
             this.mboundView2.setVisibility(videoDataGetRtcUserEntityJavaLangObjectNullViewVISIBLEViewGONE);
             this.mboundView4.setVisibility(videoDataGetVideoViewJavaLangObjectNullViewGONEViewVISIBLE);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.tvName, videoDataGetRtcUserEntityGetNickname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.tvName, videoDataGetRtcUserEntityGetNickname);
             this.tvName.setVisibility(videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueTextUtilsIsEmptyVideoDataGetRtcUserEntityGetNicknameViewGONEViewVISIBLE);
             this.videoLayout.setVisibility(videoDataGetRtcUserEntityJavaLangObjectNullBooleanTrueVideoDataGetVideoViewJavaLangObjectNullViewGONEVideoDataGetRtcUserEntityVideoOpenViewVISIBLEViewGONE);
         }
@@ -278,22 +278,22 @@ public class ItemRtcVideoBindingImpl extends ItemRtcVideoBinding  {
     /* flag mapping
         flag 0 (0x1L): videoData
         flag 1 (0x2L): null
-        flag 2 (0x3L): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname())
-        flag 3 (0x4L): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname())
-        flag 4 (0x5L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
-        flag 5 (0x6L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
-        flag 6 (0x7L): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
-        flag 7 (0x8L): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
-        flag 8 (0x9L): videoData.getVideoView() == null ? View.GONE : View.VISIBLE
-        flag 9 (0xaL): videoData.getVideoView() == null ? View.GONE : View.VISIBLE
-        flag 10 (0xbL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 11 (0xcL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 12 (0xdL): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname()) ? View.GONE : View.VISIBLE
-        flag 13 (0xeL): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname()) ? View.GONE : View.VISIBLE
-        flag 14 (0xfL): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 15 (0x10L): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
-        flag 16 (0x11L): videoData.getRtcUserEntity() != null ? View.VISIBLE : View.GONE
-        flag 17 (0x12L): videoData.getRtcUserEntity() != null ? View.VISIBLE : View.GONE
+        flag 2 (0x3L): videoData.getVideoView() == null ? View.GONE : View.VISIBLE
+        flag 3 (0x4L): videoData.getVideoView() == null ? View.GONE : View.VISIBLE
+        flag 4 (0x5L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 5 (0x6L): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null ? View.GONE : videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 6 (0x7L): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname()) ? View.GONE : View.VISIBLE
+        flag 7 (0x8L): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname()) ? View.GONE : View.VISIBLE
+        flag 8 (0x9L): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname())
+        flag 9 (0xaL): videoData.getRtcUserEntity() == null ? true : TextUtils.isEmpty(videoData.getRtcUserEntity().getNickname())
+        flag 10 (0xbL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
+        flag 11 (0xcL): videoData.getRtcUserEntity() == null ? true : videoData.getVideoView() == null
+        flag 12 (0xdL): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 13 (0xeL): videoData.getRtcUserEntity().videoOpen ? View.VISIBLE : View.GONE
+        flag 14 (0xfL): videoData.getRtcUserEntity() != null ? View.VISIBLE : View.GONE
+        flag 15 (0x10L): videoData.getRtcUserEntity() != null ? View.VISIBLE : View.GONE
+        flag 16 (0x11L): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
+        flag 17 (0x12L): videoData.getVideoView() == null ? View.VISIBLE : View.GONE
     flag mapping end*/
     //end
 }

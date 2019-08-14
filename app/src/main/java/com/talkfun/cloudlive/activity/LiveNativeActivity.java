@@ -3,9 +3,8 @@ package com.talkfun.cloudlive.activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.res.Configuration;
-import android.graphics.Rect;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 import android.text.SpannableString;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -47,7 +46,6 @@ import com.talkfun.cloudlive.view.LiveMessageView;
 import com.talkfun.sdk.HtSdk;
 import com.talkfun.sdk.consts.BroadcastCmdType;
 import com.talkfun.sdk.consts.LiveStatus;
-import com.talkfun.sdk.consts.MtConsts;
 import com.talkfun.sdk.consts.PlayerLoadState;
 import com.talkfun.sdk.event.Callback;
 import com.talkfun.sdk.event.HtBroadcastListener;
@@ -66,11 +64,8 @@ import com.talkfun.sdk.module.VoteEntity;
 import com.talkfun.sdk.module.VotePubEntity;
 import com.talkfun.sdk.event.OnSocketConnectListener;
 import com.talkfun.utils.PreventRepeatedUtil;
-import com.talkfun.whiteboard.listener.OnWhiteboardPageFrameListener;
 
 import org.json.JSONObject;
-
-import java.util.HashMap;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -106,8 +101,8 @@ public class LiveNativeActivity extends BasePlayActivity implements
     RelativeLayout operationContainer;
 
     //输入框 -全屏
-    @BindView(R.id.ll_input_fullScreen)
-    FullScreenInputBarView fullScreenInputBarView;
+//    @BindView(R.id.ll_input_fullScreen)
+//    FullScreenInputBarView fullScreenInputBarView;
 
     @BindView(R.id.fab_float_window)
     TextView memberFloatTV;
@@ -297,27 +292,27 @@ public class LiveNativeActivity extends BasePlayActivity implements
             }
         });
 
-
-        fullScreenInputBarView.setOnSendMessageListener(new OnSendMessageListener() {
-            @Override
-            public void onSendMessage(String content) {
-                isLongShowTitleBar = false;
-                if (mLiveMessageView != null) {
-                    mLiveMessageView.sendChatMessage(content);
-                }
-            }
-        });
-        fullScreenInputBarView.setOnFocusChangeListener(new FullScreenInputBarView.IFocusChangeListener() {
-            @Override
-            public void focusChange(boolean isFocus) {
-                if (isFocus) {
-                    isLongShowTitleBar = true;
-
-                } else {
-                    isLongShowTitleBar = false;
-                }
-            }
-        });
+//
+//        fullScreenInputBarView.setOnSendMessageListener(new OnSendMessageListener() {
+//            @Override
+//            public void onSendMessage(String content) {
+//                isLongShowTitleBar = false;
+//                if (mLiveMessageView != null) {
+//                    mLiveMessageView.sendChatMessage(content);
+//                }
+//            }
+//        });
+//        fullScreenInputBarView.setOnFocusChangeListener(new FullScreenInputBarView.IFocusChangeListener() {
+//            @Override
+//            public void focusChange(boolean isFocus) {
+//                if (isFocus) {
+//                    isLongShowTitleBar = true;
+//
+//                } else {
+//                    isLongShowTitleBar = false;
+//                }
+//            }
+//        });
 
         SoftKeyboardStateWatcher stateWatcher = new SoftKeyboardStateWatcher(linearContainer);
         stateWatcher.addSoftKeyboardStateListener(new SoftKeyboardStateWatcher.SoftKeyboardStateListener() {
@@ -619,7 +614,7 @@ public class LiveNativeActivity extends BasePlayActivity implements
     public void layoutChanged() {  //布局切换
         super.layoutChanged();
         vgInputLayout.reset();
-        fullScreenInputBarView.reset();
+//        fullScreenInputBarView.reset();
     }
 
     @Override
@@ -690,10 +685,10 @@ public class LiveNativeActivity extends BasePlayActivity implements
     @Override
     public void showFullScreenInput(boolean isShow) {
         if (moduleConfigHelper != null && (!moduleConfigHelper.getModuleEnable(ModuleConfigHelper.KEY_MOD_TEXT_LIVE) || !moduleConfigHelper.getModuleEnable(ModuleConfigHelper.KEY_MOD_TEXT_LIVE_CHAT))){
-            fullScreenInputBarView.setVisibility(View.INVISIBLE);
+           // fullScreenInputBarView.setVisibility(View.INVISIBLE);
             return;
         }
-        fullScreenInputBarView.setVisibility(isShow == true ? View.VISIBLE : View.INVISIBLE);
+        //fullScreenInputBarView.setVisibility(isShow == true ? View.VISIBLE : View.INVISIBLE);
 
     }
 
@@ -799,7 +794,7 @@ public class LiveNativeActivity extends BasePlayActivity implements
                 mLiveMessageView.showQuestionFragment();
             }
 
-            pageChange(mLiveMessageView.getCurrentItem());
+            //pageChange(mLiveMessageView.getCurrentItem());
 
         }
         userVideoShow = true;
@@ -1033,7 +1028,7 @@ public class LiveNativeActivity extends BasePlayActivity implements
      */
     public void setCanInput(boolean value) {
         vgInputLayout.setCanInput(value);
-        fullScreenInputBarView.setCanInput(value);
+     //   fullScreenInputBarView.setCanInput(value);
 //        fullScreenInputBarViewOpen.setCanInput(value);
     }
 
@@ -1046,43 +1041,43 @@ public class LiveNativeActivity extends BasePlayActivity implements
 
     @Override
     public void pageChange(int position) {
-        boolean isPortrait = ScreenSwitchUtils.getInstance(this).isPortrait();
-        boolean isPad = DimensionUtils.isPad(this);
-
-        switch ( mLiveMessageView.getCurrentTab()) {
-            case LiveMessageView.TAB_CHAT:  //聊天
-                if (vgInputLayout != null) {
-
-                    if ((isPad || isPortrait) && vgInputLayout.getVisibility() != View.VISIBLE) {
-                        vgInputLayout.setVisibility(View.VISIBLE);
-                    }else if(!isPad && !isPortrait){
-                        vgInputLayout.setVisibility(View.GONE);
-                    }
-                    vgInputLayout.setCanInput(chatEnable);
-                    vgInputLayout.setSendFlowerEnable(true);
-                    vgInputLayout.setInputExpressionEnable(true);
-                }
-                break;
-            case LiveMessageView.TAB_QUESTION:  //提问
-                if (vgInputLayout != null) {
-                    if ((isPad || isPortrait) && vgInputLayout.getVisibility() != View.VISIBLE) {
-                        vgInputLayout.setVisibility(View.VISIBLE);
-                    }else if(!isPad && !isPortrait){
-                        vgInputLayout.setVisibility(View.GONE);
-                    }
-                    vgInputLayout.setCanInput(true);
-                    vgInputLayout.setSendFlowerEnable(false);
-                    vgInputLayout.setInputExpressionEnable(false);
-                }
-                break;
-            case LiveMessageView.TAB_NOTIFY:  //通知
-                if (vgInputLayout != null && vgInputLayout.getVisibility() == View.VISIBLE) {
-                    vgInputLayout.setVisibility(View.GONE);
-                }
-                break;
-            default:
-                break;
-        }
+//        boolean isPortrait = ScreenSwitchUtils.getInstance(this).isPortrait();
+//        boolean isPad = DimensionUtils.isPad(this);
+//
+//        switch ( mLiveMessageView.getCurrentTab()) {
+//            case LiveMessageView.TAB_CHAT:  //聊天
+//                if (vgInputLayout != null) {
+//
+//                    if ((isPad || isPortrait) && vgInputLayout.getVisibility() != View.VISIBLE) {
+//                        vgInputLayout.setVisibility(View.VISIBLE);
+//                    }else if(!isPad && !isPortrait){
+//                        vgInputLayout.setVisibility(View.GONE);
+//                    }
+//                    vgInputLayout.setCanInput(chatEnable);
+//                    vgInputLayout.setSendFlowerEnable(true);
+//                    vgInputLayout.setInputExpressionEnable(true);
+//                }
+//                break;
+//            case LiveMessageView.TAB_QUESTION:  //提问
+//                if (vgInputLayout != null) {
+//                    if ((isPad || isPortrait) && vgInputLayout.getVisibility() != View.VISIBLE) {
+//                        vgInputLayout.setVisibility(View.VISIBLE);
+//                    }else if(!isPad && !isPortrait){
+//                        vgInputLayout.setVisibility(View.GONE);
+//                    }
+//                    vgInputLayout.setCanInput(true);
+//                    vgInputLayout.setSendFlowerEnable(false);
+//                    vgInputLayout.setInputExpressionEnable(false);
+//                }
+//                break;
+//            case LiveMessageView.TAB_NOTIFY:  //通知
+//                if (vgInputLayout != null && vgInputLayout.getVisibility() == View.VISIBLE) {
+//                    vgInputLayout.setVisibility(View.GONE);
+//                }
+//                break;
+//            default:
+//                break;
+//        }
     }
 
     //TODO-----------------------------------视频播放切换事件监听------------------------------------

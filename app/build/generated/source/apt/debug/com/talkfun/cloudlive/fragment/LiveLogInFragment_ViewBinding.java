@@ -1,13 +1,13 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.fragment;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -18,7 +18,7 @@ import java.lang.Override;
 public class LiveLogInFragment_ViewBinding implements Unbinder {
   private LiveLogInFragment target;
 
-  private View view2131296557;
+  private View view7f090131;
 
   @UiThread
   public LiveLogInFragment_ViewBinding(final LiveLogInFragment target, View source) {
@@ -31,7 +31,7 @@ public class LiveLogInFragment_ViewBinding implements Unbinder {
     target.btnLogIn = Utils.findRequiredViewAsType(source, R.id.login, "field 'btnLogIn'", Button.class);
     view = Utils.findRequiredView(source, R.id.live_login_bg, "field 'liveBg' and method 'onClick'");
     target.liveBg = Utils.castView(view, R.id.live_login_bg, "field 'liveBg'", LinearLayout.class);
-    view2131296557 = view;
+    view7f090131 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -55,7 +55,7 @@ public class LiveLogInFragment_ViewBinding implements Unbinder {
     target.liveBg = null;
     target.cb_isSelected = null;
 
-    view2131296557.setOnClickListener(null);
-    view2131296557 = null;
+    view7f090131.setOnClickListener(null);
+    view7f090131 = null;
   }
 }

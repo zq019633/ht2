@@ -1,10 +1,10 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.dialog;
 
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import androidx.annotation.UiThread;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
 import com.talkfun.cloudlive.R;
@@ -14,7 +14,7 @@ import java.lang.Override;
 public class ScoreDialogFragment_ViewBinding extends BaseDialog_ViewBinding {
   private ScoreDialogFragment target;
 
-  private View view2131296353;
+  private View view7f090061;
 
   @UiThread
   public ScoreDialogFragment_ViewBinding(final ScoreDialogFragment target, View source) {
@@ -26,7 +26,7 @@ public class ScoreDialogFragment_ViewBinding extends BaseDialog_ViewBinding {
     target.etMsg = Utils.findRequiredViewAsType(source, R.id.et_msg, "field 'etMsg'", EditText.class);
     target.llScore = Utils.findRequiredViewAsType(source, R.id.ll_score, "field 'llScore'", LinearLayout.class);
     view = Utils.findRequiredView(source, R.id.btn_submit, "method 'onClickHandle'");
-    view2131296353 = view;
+    view7f090061 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,8 +44,8 @@ public class ScoreDialogFragment_ViewBinding extends BaseDialog_ViewBinding {
     target.etMsg = null;
     target.llScore = null;
 
-    view2131296353.setOnClickListener(null);
-    view2131296353 = null;
+    view7f090061.setOnClickListener(null);
+    view7f090061 = null;
 
     super.unbind();
   }

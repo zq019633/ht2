@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ItemDialogFragmentOtmVoteBindingSw600dpImpl extends ItemDialogFragmentOtmVoteBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -23,16 +23,16 @@ public class ItemDialogFragmentOtmVoteBindingSw600dpImpl extends ItemDialogFragm
     }
     // views
     @NonNull
-    private final android.support.v7.widget.CardView mboundView0;
+    private final androidx.cardview.widget.CardView mboundView0;
     // variables
     // values
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemDialogFragmentOtmVoteBindingSw600dpImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemDialogFragmentOtmVoteBindingSw600dpImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 7, sIncludes, sViewsWithIds));
     }
-    private ItemDialogFragmentOtmVoteBindingSw600dpImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemDialogFragmentOtmVoteBindingSw600dpImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.Button) bindings[6]
             , (android.widget.TextView) bindings[4]
@@ -41,7 +41,7 @@ public class ItemDialogFragmentOtmVoteBindingSw600dpImpl extends ItemDialogFragm
             , (android.widget.TextView) bindings[2]
             , (android.view.View) bindings[3]
             );
-        this.mboundView0 = (android.support.v7.widget.CardView) bindings[0];
+        this.mboundView0 = (androidx.cardview.widget.CardView) bindings[0];
         this.mboundView0.setTag(null);
         setRootTag(root);
         // listeners

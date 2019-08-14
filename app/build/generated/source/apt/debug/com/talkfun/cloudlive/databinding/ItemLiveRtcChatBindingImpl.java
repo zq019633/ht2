@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ItemLiveRtcChatBindingImpl extends ItemLiveRtcChatBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -31,10 +31,10 @@ public class ItemLiveRtcChatBindingImpl extends ItemLiveRtcChatBinding  {
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemLiveRtcChatBindingImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemLiveRtcChatBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
     }
-    private ItemLiveRtcChatBindingImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemLiveRtcChatBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.LinearLayout) bindings[1]
             , (android.widget.TextView) bindings[4]
@@ -119,20 +119,20 @@ public class ItemLiveRtcChatBindingImpl extends ItemLiveRtcChatBinding  {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        int chatEntityIsMeViewGONEViewVISIBLE = 0;
         java.lang.String chatEntityTime = null;
-        com.talkfun.sdk.module.ChatEntity chatEntity = mChatEntity;
-        java.lang.String chatEntityNickname = null;
-        boolean chatEntityMsgJavaLangObjectNull = false;
-        boolean androidDatabindingViewDataBindingSafeUnboxChatEntityIsMe = false;
         java.lang.Boolean chatEntityIsMe = null;
         int chatEntityIsMeViewVISIBLEViewGONE = 0;
-        java.lang.String chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = null;
-        boolean chatEntityTimeJavaLangObjectNull = false;
-        int chatEntityIsMeViewGONEViewVISIBLE = 0;
         java.lang.String timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = null;
         android.text.SpannableString expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = null;
+        com.talkfun.sdk.module.ChatEntity chatEntity = mChatEntity;
+        boolean androidxDatabindingViewDataBindingSafeUnboxChatEntityIsMe = false;
         java.lang.String chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = null;
+        java.lang.String chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = null;
+        java.lang.String chatEntityNickname = null;
         java.lang.String chatEntityMsg = null;
+        boolean chatEntityTimeJavaLangObjectNull = false;
+        boolean chatEntityMsgJavaLangObjectNull = false;
 
         if ((dirtyFlags & 0x5L) != 0) {
 
@@ -141,10 +141,10 @@ public class ItemLiveRtcChatBindingImpl extends ItemLiveRtcChatBinding  {
                 if (chatEntity != null) {
                     // read chatEntity.time
                     chatEntityTime = chatEntity.getTime();
-                    // read chatEntity.nickname
-                    chatEntityNickname = chatEntity.getNickname();
                     // read chatEntity.isMe()
                     chatEntityIsMe = chatEntity.isMe();
+                    // read chatEntity.nickname
+                    chatEntityNickname = chatEntity.getNickname();
                     // read chatEntity.msg
                     chatEntityMsg = chatEntity.getMsg();
                 }
@@ -152,70 +152,70 @@ public class ItemLiveRtcChatBindingImpl extends ItemLiveRtcChatBinding  {
 
                 // read chatEntity.time == null
                 chatEntityTimeJavaLangObjectNull = (chatEntityTime) == (null);
-                // read android.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe())
-                androidDatabindingViewDataBindingSafeUnboxChatEntityIsMe = android.databinding.ViewDataBinding.safeUnbox(chatEntityIsMe);
+                // read androidx.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe())
+                androidxDatabindingViewDataBindingSafeUnboxChatEntityIsMe = androidx.databinding.ViewDataBinding.safeUnbox(chatEntityIsMe);
                 // read chatEntity.msg == null
                 chatEntityMsgJavaLangObjectNull = (chatEntityMsg) == (null);
             if((dirtyFlags & 0x5L) != 0) {
                 if(chatEntityTimeJavaLangObjectNull) {
+                        dirtyFlags |= 0x100L;
+                }
+                else {
+                        dirtyFlags |= 0x80L;
+                }
+            }
+            if((dirtyFlags & 0x5L) != 0) {
+                if(androidxDatabindingViewDataBindingSafeUnboxChatEntityIsMe) {
+                        dirtyFlags |= 0x10L;
+                        dirtyFlags |= 0x40L;
+                }
+                else {
+                        dirtyFlags |= 0x8L;
+                        dirtyFlags |= 0x20L;
+                }
+            }
+            if((dirtyFlags & 0x5L) != 0) {
+                if(chatEntityMsgJavaLangObjectNull) {
                         dirtyFlags |= 0x400L;
                 }
                 else {
                         dirtyFlags |= 0x200L;
                 }
             }
-            if((dirtyFlags & 0x5L) != 0) {
-                if(androidDatabindingViewDataBindingSafeUnboxChatEntityIsMe) {
-                        dirtyFlags |= 0x10L;
-                        dirtyFlags |= 0x100L;
-                }
-                else {
-                        dirtyFlags |= 0x8L;
-                        dirtyFlags |= 0x80L;
-                }
-            }
-            if((dirtyFlags & 0x5L) != 0) {
-                if(chatEntityMsgJavaLangObjectNull) {
-                        dirtyFlags |= 0x40L;
-                }
-                else {
-                        dirtyFlags |= 0x20L;
-                }
-            }
 
 
-                // read android.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.VISIBLE : View.GONE
-                chatEntityIsMeViewVISIBLEViewGONE = ((androidDatabindingViewDataBindingSafeUnboxChatEntityIsMe) ? (android.view.View.VISIBLE) : (android.view.View.GONE));
-                // read android.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.GONE : View.VISIBLE
-                chatEntityIsMeViewGONEViewVISIBLE = ((androidDatabindingViewDataBindingSafeUnboxChatEntityIsMe) ? (android.view.View.GONE) : (android.view.View.VISIBLE));
+                // read androidx.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.GONE : View.VISIBLE
+                chatEntityIsMeViewGONEViewVISIBLE = ((androidxDatabindingViewDataBindingSafeUnboxChatEntityIsMe) ? (android.view.View.GONE) : (android.view.View.VISIBLE));
+                // read androidx.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.VISIBLE : View.GONE
+                chatEntityIsMeViewVISIBLEViewGONE = ((androidxDatabindingViewDataBindingSafeUnboxChatEntityIsMe) ? (android.view.View.VISIBLE) : (android.view.View.GONE));
         }
         // batch finished
 
         if ((dirtyFlags & 0x5L) != 0) {
 
-                // read chatEntity.msg == null ? "" : chatEntity.msg
-                chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = ((chatEntityMsgJavaLangObjectNull) ? ("") : (chatEntityMsg));
                 // read chatEntity.time == null ? "" : chatEntity.time
                 chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = ((chatEntityTimeJavaLangObjectNull) ? ("") : (chatEntityTime));
+                // read chatEntity.msg == null ? "" : chatEntity.msg
+                chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = ((chatEntityMsgJavaLangObjectNull) ? ("") : (chatEntityMsg));
 
 
-                // read ExpressionUtil.getExpressionString(context, chatEntity.msg == null ? "" : chatEntity.msg, "mipmap")
-                expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = com.talkfun.cloudlive.util.ExpressionUtil.getExpressionString(getRoot().getContext(), chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg, "mipmap");
                 // read TimeUtil.displayTime(chatEntity.time == null ? "" : chatEntity.time)
                 timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = com.talkfun.cloudlive.util.TimeUtil.displayTime(chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+                // read ExpressionUtil.getExpressionString(context, chatEntity.msg == null ? "" : chatEntity.msg, "mipmap")
+                expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = com.talkfun.cloudlive.util.ExpressionUtil.getExpressionString(getRoot().getContext(), chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg, "mipmap");
         }
         // batch finished
         if ((dirtyFlags & 0x5L) != 0) {
             // api target 1
 
             this.leftLayout.setVisibility(chatEntityIsMeViewGONEViewVISIBLE);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.leftMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, chatEntityNickname);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView6, chatEntityNickname);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView7, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.leftMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, chatEntityNickname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView6, chatEntityNickname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView7, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
             this.rightLayout.setVisibility(chatEntityIsMeViewVISIBLEViewGONE);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.rightMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.rightMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
         }
     }
     // Listener Stub Implementations
@@ -226,14 +226,14 @@ public class ItemLiveRtcChatBindingImpl extends ItemLiveRtcChatBinding  {
         flag 0 (0x1L): chatEntity
         flag 1 (0x2L): memberRole
         flag 2 (0x3L): null
-        flag 3 (0x4L): android.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.VISIBLE : View.GONE
-        flag 4 (0x5L): android.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.VISIBLE : View.GONE
-        flag 5 (0x6L): chatEntity.msg == null ? "" : chatEntity.msg
-        flag 6 (0x7L): chatEntity.msg == null ? "" : chatEntity.msg
-        flag 7 (0x8L): android.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.GONE : View.VISIBLE
-        flag 8 (0x9L): android.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.GONE : View.VISIBLE
-        flag 9 (0xaL): chatEntity.time == null ? "" : chatEntity.time
-        flag 10 (0xbL): chatEntity.time == null ? "" : chatEntity.time
+        flag 3 (0x4L): androidx.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.GONE : View.VISIBLE
+        flag 4 (0x5L): androidx.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.GONE : View.VISIBLE
+        flag 5 (0x6L): androidx.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.VISIBLE : View.GONE
+        flag 6 (0x7L): androidx.databinding.ViewDataBinding.safeUnbox(chatEntity.isMe()) ? View.VISIBLE : View.GONE
+        flag 7 (0x8L): chatEntity.time == null ? "" : chatEntity.time
+        flag 8 (0x9L): chatEntity.time == null ? "" : chatEntity.time
+        flag 9 (0xaL): chatEntity.msg == null ? "" : chatEntity.msg
+        flag 10 (0xbL): chatEntity.msg == null ? "" : chatEntity.msg
     flag mapping end*/
     //end
 }

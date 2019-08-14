@@ -1,6 +1,6 @@
 package com.talkfun.cloudlive.adapter;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.base.BaseDatabindingAdapter;

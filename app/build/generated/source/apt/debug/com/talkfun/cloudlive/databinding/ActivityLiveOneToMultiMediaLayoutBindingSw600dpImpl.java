@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ActivityLiveOneToMultiMediaLayoutBindingSw600dpImpl extends ActivityLiveOneToMultiMediaLayoutBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -29,17 +29,17 @@ public class ActivityLiveOneToMultiMediaLayoutBindingSw600dpImpl extends Activit
     // listeners
     // Inverse Binding Event Handlers
 
-    public ActivityLiveOneToMultiMediaLayoutBindingSw600dpImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ActivityLiveOneToMultiMediaLayoutBindingSw600dpImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
     }
-    private ActivityLiveOneToMultiMediaLayoutBindingSw600dpImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ActivityLiveOneToMultiMediaLayoutBindingSw600dpImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.FrameLayout) bindings[1]
             , (android.widget.FrameLayout) bindings[0]
             , (android.widget.ImageView) bindings[8]
             , (com.talkfun.widget.RotateImageView) bindings[3]
             , null
-            , (android.support.constraint.ConstraintLayout) bindings[5]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[5]
             , (android.widget.ProgressBar) bindings[6]
             , (com.talkfun.widget.round.RoundTextView) bindings[4]
             , (android.widget.TextView) bindings[7]

@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ItemLiveRtcChatLeftBindingSw600dpImpl extends ItemLiveRtcChatLeftBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -27,10 +27,10 @@ public class ItemLiveRtcChatLeftBindingSw600dpImpl extends ItemLiveRtcChatLeftBi
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemLiveRtcChatLeftBindingSw600dpImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemLiveRtcChatLeftBindingSw600dpImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds));
     }
-    private ItemLiveRtcChatLeftBindingSw600dpImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemLiveRtcChatLeftBindingSw600dpImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.TextView) bindings[3]
             , null
@@ -107,16 +107,16 @@ public class ItemLiveRtcChatLeftBindingSw600dpImpl extends ItemLiveRtcChatLeftBi
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        java.lang.String chatEntityTime = null;
-        com.talkfun.sdk.module.ChatEntity chatEntity = mChatEntity;
-        java.lang.String chatEntityNickname = null;
-        boolean chatEntityMsgJavaLangObjectNull = false;
+        java.lang.String chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = null;
         java.lang.String chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = null;
+        java.lang.String chatEntityTime = null;
+        java.lang.String chatEntityNickname = null;
+        java.lang.String chatEntityMsg = null;
         boolean chatEntityTimeJavaLangObjectNull = false;
         java.lang.String timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = null;
         android.text.SpannableString expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = null;
-        java.lang.String chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = null;
-        java.lang.String chatEntityMsg = null;
+        com.talkfun.sdk.module.ChatEntity chatEntity = mChatEntity;
+        boolean chatEntityMsgJavaLangObjectNull = false;
 
         if ((dirtyFlags & 0x5L) != 0) {
 
@@ -138,43 +138,43 @@ public class ItemLiveRtcChatLeftBindingSw600dpImpl extends ItemLiveRtcChatLeftBi
                 chatEntityMsgJavaLangObjectNull = (chatEntityMsg) == (null);
             if((dirtyFlags & 0x5L) != 0) {
                 if(chatEntityTimeJavaLangObjectNull) {
-                        dirtyFlags |= 0x40L;
-                }
-                else {
-                        dirtyFlags |= 0x20L;
-                }
-            }
-            if((dirtyFlags & 0x5L) != 0) {
-                if(chatEntityMsgJavaLangObjectNull) {
                         dirtyFlags |= 0x10L;
                 }
                 else {
                         dirtyFlags |= 0x8L;
                 }
             }
+            if((dirtyFlags & 0x5L) != 0) {
+                if(chatEntityMsgJavaLangObjectNull) {
+                        dirtyFlags |= 0x40L;
+                }
+                else {
+                        dirtyFlags |= 0x20L;
+                }
+            }
         }
         // batch finished
 
         if ((dirtyFlags & 0x5L) != 0) {
 
-                // read chatEntity.msg == null ? "" : chatEntity.msg
-                chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = ((chatEntityMsgJavaLangObjectNull) ? ("") : (chatEntityMsg));
                 // read chatEntity.time == null ? "" : chatEntity.time
                 chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = ((chatEntityTimeJavaLangObjectNull) ? ("") : (chatEntityTime));
+                // read chatEntity.msg == null ? "" : chatEntity.msg
+                chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = ((chatEntityMsgJavaLangObjectNull) ? ("") : (chatEntityMsg));
 
 
-                // read ExpressionUtil.getExpressionString(context, chatEntity.msg == null ? "" : chatEntity.msg, "mipmap")
-                expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = com.talkfun.cloudlive.util.ExpressionUtil.getExpressionString(getRoot().getContext(), chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg, "mipmap");
                 // read TimeUtil.displayTime(chatEntity.time == null ? "" : chatEntity.time)
                 timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = com.talkfun.cloudlive.util.TimeUtil.displayTime(chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+                // read ExpressionUtil.getExpressionString(context, chatEntity.msg == null ? "" : chatEntity.msg, "mipmap")
+                expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = com.talkfun.cloudlive.util.ExpressionUtil.getExpressionString(getRoot().getContext(), chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg, "mipmap");
         }
         // batch finished
         if ((dirtyFlags & 0x5L) != 0) {
             // api target 1
 
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.leftMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, chatEntityNickname);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.leftMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, chatEntityNickname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
         }
     }
     // Listener Stub Implementations
@@ -185,10 +185,10 @@ public class ItemLiveRtcChatLeftBindingSw600dpImpl extends ItemLiveRtcChatLeftBi
         flag 0 (0x1L): chatEntity
         flag 1 (0x2L): memberRole
         flag 2 (0x3L): null
-        flag 3 (0x4L): chatEntity.msg == null ? "" : chatEntity.msg
-        flag 4 (0x5L): chatEntity.msg == null ? "" : chatEntity.msg
-        flag 5 (0x6L): chatEntity.time == null ? "" : chatEntity.time
-        flag 6 (0x7L): chatEntity.time == null ? "" : chatEntity.time
+        flag 3 (0x4L): chatEntity.time == null ? "" : chatEntity.time
+        flag 4 (0x5L): chatEntity.time == null ? "" : chatEntity.time
+        flag 5 (0x6L): chatEntity.msg == null ? "" : chatEntity.msg
+        flag 6 (0x7L): chatEntity.msg == null ? "" : chatEntity.msg
     flag mapping end*/
     //end
 }

@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 /**
  * Created by ccy on 2018/9/14/14:28
  */
-public class LoadingImageView extends android.support.v7.widget.AppCompatImageView {
+public class LoadingImageView extends androidx.appcompat.widget.AppCompatImageView {
     private static final int DEFAULT_MIN_WIDTH = 400; //View默认最小宽度
     private static final float doughnutRaduisPercent = 0.9f; //圆环外圆半径占View最大半径的百分比
     private static final float doughnutWidthPercent = 0.2f; //圆环宽度占View最大半径的百分比

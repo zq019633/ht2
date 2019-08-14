@@ -41,7 +41,7 @@
             app:emptyView="@layout/dialog_frament_empty_view"
             app:loadingView="@layout/dialog_frament_loading_view">
 
-            <android.support.constraint.ConstraintLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -205,13 +205,13 @@
                     app:layout_constraintTop_toBottomOf="@+id/tv_you_answer"
                     tools:text="正确答案：BC" />
 
-                <android.support.constraint.Guideline
+                <androidx.constraintlayout.widget.Guideline
                     android:id="@+id/guideline3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     app:layout_constraintGuide_percent="0.05" />
-            </android.support.constraint.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ProgressBar
                 android:id="@+id/pb_loading"

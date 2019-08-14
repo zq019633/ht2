@@ -1,7 +1,7 @@
 package com.talkfun.cloudlive.dialog;
 
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentManager;
 
 import java.lang.ref.WeakReference;
 

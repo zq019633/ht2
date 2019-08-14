@@ -1,14 +1,14 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ItemLiveRtcChatBindingSw600dpImpl extends ItemLiveRtcChatBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
@@ -31,10 +31,10 @@ public class ItemLiveRtcChatBindingSw600dpImpl extends ItemLiveRtcChatBinding  {
     // listeners
     // Inverse Binding Event Handlers
 
-    public ItemLiveRtcChatBindingSw600dpImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ItemLiveRtcChatBindingSw600dpImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds));
     }
-    private ItemLiveRtcChatBindingSw600dpImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ItemLiveRtcChatBindingSw600dpImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
             , (android.widget.LinearLayout) bindings[1]
             , (android.widget.TextView) bindings[4]
@@ -121,17 +121,17 @@ public class ItemLiveRtcChatBindingSw600dpImpl extends ItemLiveRtcChatBinding  {
         }
         java.lang.String chatEntityTime = null;
         int chatEntityRoleEqualsMemberRoleMEMBERROLESUPERADMINViewGONEViewVISIBLE = 0;
-        com.talkfun.sdk.module.ChatEntity chatEntity = mChatEntity;
-        java.lang.String chatEntityNickname = null;
-        boolean chatEntityMsgJavaLangObjectNull = false;
-        boolean chatEntityRoleEqualsMemberRoleMEMBERROLESUPERADMIN = false;
-        java.lang.String chatEntityRole = null;
-        java.lang.String chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = null;
-        boolean chatEntityTimeJavaLangObjectNull = false;
         java.lang.String timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = null;
         android.text.SpannableString expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = null;
+        java.lang.String chatEntityRole = null;
+        com.talkfun.sdk.module.ChatEntity chatEntity = mChatEntity;
+        boolean chatEntityRoleEqualsMemberRoleMEMBERROLESUPERADMIN = false;
         java.lang.String chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = null;
+        java.lang.String chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = null;
+        java.lang.String chatEntityNickname = null;
         java.lang.String chatEntityMsg = null;
+        boolean chatEntityTimeJavaLangObjectNull = false;
+        boolean chatEntityMsgJavaLangObjectNull = false;
         int chatEntityRoleEqualsMemberRoleMEMBERROLESUPERADMINViewVISIBLEViewGONE = 0;
 
         if ((dirtyFlags & 0x5L) != 0) {
@@ -141,10 +141,10 @@ public class ItemLiveRtcChatBindingSw600dpImpl extends ItemLiveRtcChatBinding  {
                 if (chatEntity != null) {
                     // read chatEntity.time
                     chatEntityTime = chatEntity.getTime();
-                    // read chatEntity.nickname
-                    chatEntityNickname = chatEntity.getNickname();
                     // read chatEntity.role
                     chatEntityRole = chatEntity.getRole();
+                    // read chatEntity.nickname
+                    chatEntityNickname = chatEntity.getNickname();
                     // read chatEntity.msg
                     chatEntityMsg = chatEntity.getMsg();
                 }
@@ -156,18 +156,18 @@ public class ItemLiveRtcChatBindingSw600dpImpl extends ItemLiveRtcChatBinding  {
                 chatEntityMsgJavaLangObjectNull = (chatEntityMsg) == (null);
             if((dirtyFlags & 0x5L) != 0) {
                 if(chatEntityTimeJavaLangObjectNull) {
-                        dirtyFlags |= 0x100L;
-                }
-                else {
-                        dirtyFlags |= 0x80L;
-                }
-            }
-            if((dirtyFlags & 0x5L) != 0) {
-                if(chatEntityMsgJavaLangObjectNull) {
                         dirtyFlags |= 0x40L;
                 }
                 else {
                         dirtyFlags |= 0x20L;
+                }
+            }
+            if((dirtyFlags & 0x5L) != 0) {
+                if(chatEntityMsgJavaLangObjectNull) {
+                        dirtyFlags |= 0x100L;
+                }
+                else {
+                        dirtyFlags |= 0x80L;
                 }
             }
                 if (chatEntityRole != null) {
@@ -195,29 +195,29 @@ public class ItemLiveRtcChatBindingSw600dpImpl extends ItemLiveRtcChatBinding  {
 
         if ((dirtyFlags & 0x5L) != 0) {
 
-                // read chatEntity.msg == null ? "" : chatEntity.msg
-                chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = ((chatEntityMsgJavaLangObjectNull) ? ("") : (chatEntityMsg));
                 // read chatEntity.time == null ? "" : chatEntity.time
                 chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = ((chatEntityTimeJavaLangObjectNull) ? ("") : (chatEntityTime));
+                // read chatEntity.msg == null ? "" : chatEntity.msg
+                chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg = ((chatEntityMsgJavaLangObjectNull) ? ("") : (chatEntityMsg));
 
 
-                // read ExpressionUtil.getExpressionString(context, chatEntity.msg == null ? "" : chatEntity.msg, "mipmap")
-                expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = com.talkfun.cloudlive.util.ExpressionUtil.getExpressionString(getRoot().getContext(), chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg, "mipmap");
                 // read TimeUtil.displayTime(chatEntity.time == null ? "" : chatEntity.time)
                 timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime = com.talkfun.cloudlive.util.TimeUtil.displayTime(chatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+                // read ExpressionUtil.getExpressionString(context, chatEntity.msg == null ? "" : chatEntity.msg, "mipmap")
+                expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap = com.talkfun.cloudlive.util.ExpressionUtil.getExpressionString(getRoot().getContext(), chatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsg, "mipmap");
         }
         // batch finished
         if ((dirtyFlags & 0x5L) != 0) {
             // api target 1
 
             this.leftLayout.setVisibility(chatEntityRoleEqualsMemberRoleMEMBERROLESUPERADMINViewVISIBLEViewGONE);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.leftMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, chatEntityNickname);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView6, chatEntityNickname);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView7, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.leftMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, chatEntityNickname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView6, chatEntityNickname);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView7, timeUtilDisplayTimeChatEntityTimeJavaLangObjectNullJavaLangStringChatEntityTime);
             this.rightLayout.setVisibility(chatEntityRoleEqualsMemberRoleMEMBERROLESUPERADMINViewGONEViewVISIBLE);
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.rightMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.rightMsg, expressionUtilGetExpressionStringContextChatEntityMsgJavaLangObjectNullJavaLangStringChatEntityMsgJavaLangStringMipmap);
         }
     }
     // Listener Stub Implementations
@@ -230,10 +230,10 @@ public class ItemLiveRtcChatBindingSw600dpImpl extends ItemLiveRtcChatBinding  {
         flag 2 (0x3L): null
         flag 3 (0x4L): chatEntity.role.equals(MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
         flag 4 (0x5L): chatEntity.role.equals(MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.GONE : View.VISIBLE
-        flag 5 (0x6L): chatEntity.msg == null ? "" : chatEntity.msg
-        flag 6 (0x7L): chatEntity.msg == null ? "" : chatEntity.msg
-        flag 7 (0x8L): chatEntity.time == null ? "" : chatEntity.time
-        flag 8 (0x9L): chatEntity.time == null ? "" : chatEntity.time
+        flag 5 (0x6L): chatEntity.time == null ? "" : chatEntity.time
+        flag 6 (0x7L): chatEntity.time == null ? "" : chatEntity.time
+        flag 7 (0x8L): chatEntity.msg == null ? "" : chatEntity.msg
+        flag 8 (0x9L): chatEntity.msg == null ? "" : chatEntity.msg
         flag 9 (0xaL): chatEntity.role.equals(MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.VISIBLE : View.GONE
         flag 10 (0xbL): chatEntity.role.equals(MemberRole.MEMBER_ROLE_SUPER_ADMIN) ? View.VISIBLE : View.GONE
     flag mapping end*/

@@ -1,7 +1,7 @@
 package com.talkfun.cloudlive.activity;
 
 import android.content.DialogInterface;
-import android.databinding.ViewDataBinding;
+import androidx.databinding.ViewDataBinding;
 import android.graphics.Color;
 import android.view.View;
 
@@ -14,6 +14,7 @@ import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.base.BaseDatabindingActivity;
 import com.talkfun.cloudlive.interfaces.IMultiMediaViewManager;
 import com.talkfun.cloudlive.util.DimensionUtils;
+import com.talkfun.cloudlive.util.ToastUtil;
 import com.talkfun.cloudlive.viewmodel.BaseLiveRtcViewModel;
 
 /**
@@ -37,30 +38,31 @@ public abstract class BaseLiveRtcActivity<B extends ViewDataBinding, VM extends 
      */
     protected void popupBackDialog() {
         int weith = isIPad() ? getDimension(R.dimen.dp_150) : getDimension(R.dimen.dp_210);
-        new CircleDialog.Builder().setWidth(weith).setText("确定要退出直播间吗?").configText(new ConfigText() {
-            @Override
-            public void onConfig(TextParams params) {
-                params.textColor = Color.parseColor("#1D334E");
-                params.height = isIPad() ? getDimension(R.dimen.dp_65) : getDimension(R.dimen.dp_95);
-            }
-        }).setPositive("确定", new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        }).configPositive(new ConfigButton() {
-            @Override
-            public void onConfig(ButtonParams params) {
-                params.height = dialogBtnHeight();
-                params.textColor = getResources().getColor(R.color.red);
-            }
-        }).setNegative("取消", null).configNegative(new ConfigButton() {
-            @Override
-            public void onConfig(ButtonParams params) {
-                params.height = dialogBtnHeight();
-                params.textColor = Color.parseColor("#263548");
-            }
-        }).show(this.getSupportFragmentManager());
+        ToastUtil.show(this,"退出");
+//        new CircleDialog.Builder().setWidth(weith).setText("确定要退出直播间吗?").configText(new ConfigText() {
+//            @Override
+//            public void onConfig(TextParams params) {
+//                params.textColor = Color.parseColor("#1D334E");
+//                params.height = isIPad() ? getDimension(R.dimen.dp_65) : getDimension(R.dimen.dp_95);
+//            }
+//        }).setPositive("确定", new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                finish();
+//            }
+//        }).configPositive(new ConfigButton() {
+//            @Override
+//            public void onConfig(ButtonParams params) {
+//                params.height = dialogBtnHeight();
+//                params.textColor = getResources().getColor(R.color.red);
+//            }
+//        }).setNegative("取消", null).configNegative(new ConfigButton() {
+//            @Override
+//            public void onConfig(ButtonParams params) {
+//                params.height = dialogBtnHeight();
+//                params.textColor = Color.parseColor("#263548");
+//            }
+//        }).show(this.getSupportFragmentManager());
     }
 
     protected int dialogBtnHeight() {

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.talkfun.cloudlive"
+    android:targetSandboxVersion="2"
+    android:versionCode="341"
+    android:versionName="3.4.1" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!-- <uses-permission android:name="android.permission.READ_LOGS" /> -->
+    <application
+        android:name="com.talkfun.cloudlive.TFApplication"
+        android:allowBackup="true"
+        android:appComponentFactory=""
+        android:debuggable="true"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.talkfun.cloudlive.activity.LoginJumpActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="talkfunsdk" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".activity.LoginActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:launchMode="singleTask" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.ScanQRLoginActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.LoginJumpActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name="com.talkfun.cloudlive.activity.LiveNativeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.talkfun.cloudlive.activity.PlayDownLoadActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talkfun.cloudlive.activity.PlaybackNativeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.talkfun.cloudlive.activity.PlaybackOnlyVideoNativeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape"
+            android:theme="@style/notitle" />
+        <activity
+            android:name="com.talkfun.cloudlive.activity.ApplyForActivity"
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
+        <!-- android:name=".activity.ScanQRCodeActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.AboutUsActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.LiveLoginActivity" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <activity
+            android:name="com.talkfun.cloudlive.activity.PlaybackLoginActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.talkfun.cloudlive.net.NetWorkStateReceiver" >
+            <intent-filter>
+                <action android:name="android.NET.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- <activity -->
+        <!-- android:name=".activity.LiveRtcNativeActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:windowSoftInputMode="adjustResize|stateHidden" /> -->
+
+
+        <!-- <activity -->
+        <!-- android:name=".activity.LiveMixNativeActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden|screenSize" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:windowSoftInputMode="adjustResize|stateHidden" /> -->
+        <!-- <activity -->
+        <!-- android:name=".activity.LiveOneToOneNativeActivity" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:theme="@style/notitle" -->
+        <!-- android:windowSoftInputMode="adjustNothing"></activity> -->
+        <!-- FileProvider配置访问路径，适配7.0及其以上 -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.talkfun.cloudlive.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <!-- <activity -->
+        <!-- android:name=".activity.LiveOneToMultiNativeActivity" -->
+        <!-- android:screenOrientation="landscape" -->
+        <!-- android:theme="@style/notitle" -->
+        <!-- android:windowSoftInputMode="adjustResize|stateHidden"></activity> -->
+        <activity
+            android:name="com.uuzuche.lib_zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    </application>
+
+</manifest>

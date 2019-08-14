@@ -1,11 +1,11 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.adapter;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.talkfun.cloudlive.R;
@@ -16,8 +16,8 @@ public class PlaybackChatAdapter$SimpleViewHolder_ViewBinding implements Unbinde
   private PlaybackChatAdapter.SimpleViewHolder target;
 
   @UiThread
-  public PlaybackChatAdapter$SimpleViewHolder_ViewBinding(PlaybackChatAdapter.SimpleViewHolder target,
-      View source) {
+  public PlaybackChatAdapter$SimpleViewHolder_ViewBinding(
+      PlaybackChatAdapter.SimpleViewHolder target, View source) {
     this.target = target;
 
     target.identityTv = Utils.findRequiredViewAsType(source, R.id.identity, "field 'identityTv'", TextView.class);

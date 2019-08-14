@@ -1,7 +1,10 @@
-#Tue Aug 13 23:28:30 CST 2019
-base.0=F\:\\androidStudioProject\\huantuo\\1\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Aug 15 00:00:57 CST 2019
+path.2=classes2.dex
 path.1=classes.dex
-renamed.1=classes2.dex
 path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.2=F\:\\androidStudioProject\\huantuo\\1\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 base.1=F\:\\androidStudioProject\\huantuo\\1\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.0=F\:\\androidStudioProject\\huantuo\\1\\demo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

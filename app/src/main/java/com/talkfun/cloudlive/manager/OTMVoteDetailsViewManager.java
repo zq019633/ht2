@@ -2,7 +2,7 @@ package com.talkfun.cloudlive.manager;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.constraint.ConstraintLayout;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,7 +18,6 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.adapter.OTMVoteOptionAdapter;
-import com.talkfun.cloudlive.imageload.GlideImageLoader;
 import com.talkfun.cloudlive.util.ToastUtil;
 import com.talkfun.cloudlive.view.MultipleStatusLayout2;
 import com.talkfun.cloudlive.view.NoScrollListView;

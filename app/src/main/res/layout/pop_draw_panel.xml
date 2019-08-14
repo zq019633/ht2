@@ -6,7 +6,7 @@
     android:background="@color/transparent"
     android:orientation="vertical">
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -20,7 +20,7 @@
             android:layout_marginBottom="@dimen/dp_5"
             android:orientation="vertical">
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/draw_rv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                 android:layout_marginBottom="@dimen/dp_5"
                 android:background="#1A919DAE" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/color_rv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -53,12 +53,12 @@
                 android:layout_marginBottom="@dimen/dp_5"
                 android:background="#1A919DAE" />
 
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/stoke_rv"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <com.talkfun.cloudlive.view.TriangleView
         android:layout_width="@dimen/dp_12"

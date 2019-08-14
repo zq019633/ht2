@@ -83,7 +83,7 @@
                 android:layout_height="@dimen/dp_90"
                 android:layout_below="@id/edt_input"
                 android:visibility="gone" />
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_useful_expression"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_90"

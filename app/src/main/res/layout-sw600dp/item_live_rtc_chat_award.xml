@@ -11,7 +11,7 @@
             type="com.talkfun.sdk.rtc.entity.AwardEntity" />
     </data>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_30">
 
@@ -61,5 +61,5 @@
                 android:textSize="@dimen/sp_7" />
 
         </LinearLayout>
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

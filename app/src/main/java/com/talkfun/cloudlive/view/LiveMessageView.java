@@ -1,11 +1,9 @@
 package com.talkfun.cloudlive.view;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.SpannableString;
 import android.text.TextUtils;
 import android.util.AttributeSet;
@@ -149,10 +147,10 @@ public class LiveMessageView extends LinearLayout implements BaseMessageView, Ht
     @Override
     public void initTabLayout() {
 
-        for (int i = 0; i < mTitles.length; i++) {
-            mTabEntities.add(new TabEntity(mTitles[i], mIconSelectIds[i], mIconUnselectIds[i]));
-        }
-        mCommonTabLayout.setTabData(mTabEntities);
+//        for (int i = 0; i < mTitles.length; i++) {
+//            mTabEntities.add(new TabEntity(mTitles[i], mIconSelectIds[i], mIconUnselectIds[i]));
+//        }
+//        mCommonTabLayout.setTabData(mTabEntities);
     }
 
     @Override
@@ -267,45 +265,45 @@ public class LiveMessageView extends LinearLayout implements BaseMessageView, Ht
 
     @Override
     public void initViewPager() {
-        fragmentList = new LinkedList<>();
-        createChatFragment();
-        createQuestionFragment();
-        createNoticeFragment();
-        fragmentListAdapter = new FragmentListAdapter(context, fragmentList);
-        mViewPager.setAdapter(fragmentListAdapter);
-        mViewPager.setOffscreenPageLimit(2);
-        mViewPager.setSaveFromParentEnabled(false);
-        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-                mCommonTabLayout.setCurrentTab(position);
-                mIPageChange.pageChange(position);
-                mCommonTabLayout.hideMsg(position);
-
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
-            }
-        });
-        mCommonTabLayout.setOnTabSelectListener(new OnTabSelectListener() {
-            @Override
-            public void onTabSelect(int position) {
-                mViewPager.setCurrentItem(position);
-                mCommonTabLayout.hideMsg(position);
-            }
-
-            @Override
-            public void onTabReselect(int position) {
-
-            }
-        });
+//        fragmentList = new LinkedList<>();
+////        createChatFragment();
+////        createQuestionFragment();
+////        createNoticeFragment();
+//        fragmentListAdapter = new FragmentListAdapter(context, fragmentList);
+//        mViewPager.setAdapter(fragmentListAdapter);
+//        mViewPager.setOffscreenPageLimit(2);
+//        mViewPager.setSaveFromParentEnabled(false);
+//        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+//            @Override
+//            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+//
+//            }
+//
+//            @Override
+//            public void onPageSelected(int position) {
+//                mCommonTabLayout.setCurrentTab(position);
+//                mIPageChange.pageChange(position);
+//                mCommonTabLayout.hideMsg(position);
+//
+//            }
+//
+//            @Override
+//            public void onPageScrollStateChanged(int state) {
+//
+//            }
+//        });
+//        mCommonTabLayout.setOnTabSelectListener(new OnTabSelectListener() {
+//            @Override
+//            public void onTabSelect(int position) {
+//                mViewPager.setCurrentItem(position);
+//                mCommonTabLayout.hideMsg(position);
+//            }
+//
+//            @Override
+//            public void onTabReselect(int position) {
+//
+//            }
+//        });
     }
 
 

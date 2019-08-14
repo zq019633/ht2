@@ -1,38 +1,38 @@
 package com.talkfun.cloudlive.databinding;
 import com.talkfun.cloudlive.R;
 import com.talkfun.cloudlive.BR;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLiveOneToMultiNativeBinding  {
 
     @Nullable
-    private static final android.databinding.ViewDataBinding.IncludedLayouts sIncludes;
+    private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
     @Nullable
     private static final android.util.SparseIntArray sViewsWithIds;
     static {
-        sIncludes = new android.databinding.ViewDataBinding.IncludedLayouts(16);
+        sIncludes = new androidx.databinding.ViewDataBinding.IncludedLayouts(16);
         sIncludes.setIncludes(1, 
             new String[] {"activity_live_one_to_multi_tool_bar"},
             new int[] {6},
-            new int[] {R.layout.activity_live_one_to_multi_tool_bar});
-        sIncludes.setIncludes(5, 
-            new String[] {"activity_live_one_to_multi_media_layout"},
-            new int[] {7},
-            new int[] {R.layout.activity_live_one_to_multi_media_layout});
+            new int[] {com.talkfun.cloudlive.R.layout.activity_live_one_to_multi_tool_bar});
         sIncludes.setIncludes(2, 
             new String[] {"tip_net_work_error"},
             new int[] {10},
-            new int[] {R.layout.tip_net_work_error});
-        sIncludes.setIncludes(4, 
-            new String[] {"activity_live_one_to_multi__ipad_right_oprator"},
-            new int[] {8},
-            new int[] {R.layout.activity_live_one_to_multi__ipad_right_oprator});
+            new int[] {com.talkfun.cloudlive.R.layout.tip_net_work_error});
         sIncludes.setIncludes(3, 
             new String[] {"activity_live_one_to_multi_bottom_bar"},
             new int[] {9},
-            new int[] {R.layout.activity_live_one_to_multi_bottom_bar});
+            new int[] {com.talkfun.cloudlive.R.layout.activity_live_one_to_multi_bottom_bar});
+        sIncludes.setIncludes(4, 
+            new String[] {"activity_live_one_to_multi__ipad_right_oprator"},
+            new int[] {8},
+            new int[] {com.talkfun.cloudlive.R.layout.activity_live_one_to_multi__ipad_right_oprator});
+        sIncludes.setIncludes(5, 
+            new String[] {"activity_live_one_to_multi_media_layout"},
+            new int[] {7},
+            new int[] {com.talkfun.cloudlive.R.layout.activity_live_one_to_multi_media_layout});
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.rv_video, 11);
         sViewsWithIds.put(R.id.ml_multi_status, 12);
@@ -52,10 +52,10 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
     // listeners
     // Inverse Binding Event Handlers
 
-    public ActivityLiveOneToMultiNativeBindingSw600dpImpl(@Nullable android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
+    public ActivityLiveOneToMultiNativeBindingSw600dpImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         this(bindingComponent, root, mapBindings(bindingComponent, root, 16, sIncludes, sViewsWithIds));
     }
-    private ActivityLiveOneToMultiNativeBindingSw600dpImpl(android.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
+    private ActivityLiveOneToMultiNativeBindingSw600dpImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 7
             , (com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiBottomBarBinding) bindings[9]
             , (android.widget.FrameLayout) bindings[14]
@@ -69,7 +69,7 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
             , (com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiMediaLayoutBinding) bindings[7]
             , (android.widget.FrameLayout) bindings[5]
             , null
-            , (android.support.v7.widget.RecyclerView) bindings[11]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[11]
             , (com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiToolBarBinding) bindings[6]
             , (android.widget.FrameLayout) bindings[13]
             );
@@ -132,7 +132,7 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
     }
 
     @Override
-    public void setLifecycleOwner(@Nullable android.arch.lifecycle.LifecycleOwner lifecycleOwner) {
+    public void setLifecycleOwner(@Nullable androidx.lifecycle.LifecycleOwner lifecycleOwner) {
         super.setLifecycleOwner(lifecycleOwner);
         toolBar.setLifecycleOwner(lifecycleOwner);
         multimediaLayout.setLifecycleOwner(lifecycleOwner);
@@ -145,23 +145,23 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
         switch (localFieldId) {
             case 0 :
-                return onChangeRightOpratorRl((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiRightOpratorBinding) object, fieldId);
+                return onChangeBottomBar((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiBottomBarBinding) object, fieldId);
             case 1 :
-                return onChangeToolBar((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiToolBarBinding) object, fieldId);
+                return onChangeLlBadNetStatus((com.talkfun.cloudlive.databinding.TipNetWorkErrorBinding) object, fieldId);
             case 2 :
                 return onChangeLeftOpratorRl((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiLeftOpratorBinding) object, fieldId);
             case 3 :
-                return onChangeLlBadNetStatus((com.talkfun.cloudlive.databinding.TipNetWorkErrorBinding) object, fieldId);
-            case 4 :
                 return onChangeIpadRightOpratorRl((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiIpadRightOpratorBinding) object, fieldId);
+            case 4 :
+                return onChangeRightOpratorRl((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiRightOpratorBinding) object, fieldId);
             case 5 :
-                return onChangeBottomBar((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiBottomBarBinding) object, fieldId);
+                return onChangeToolBar((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiToolBarBinding) object, fieldId);
             case 6 :
                 return onChangeMultimediaLayout((com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiMediaLayoutBinding) object, fieldId);
         }
         return false;
     }
-    private boolean onChangeRightOpratorRl(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiRightOpratorBinding RightOpratorRl, int fieldId) {
+    private boolean onChangeBottomBar(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiBottomBarBinding BottomBar, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x1L;
@@ -170,7 +170,7 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
         }
         return false;
     }
-    private boolean onChangeToolBar(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiToolBarBinding ToolBar, int fieldId) {
+    private boolean onChangeLlBadNetStatus(com.talkfun.cloudlive.databinding.TipNetWorkErrorBinding LlBadNetStatus, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x2L;
@@ -188,7 +188,7 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
         }
         return false;
     }
-    private boolean onChangeLlBadNetStatus(com.talkfun.cloudlive.databinding.TipNetWorkErrorBinding LlBadNetStatus, int fieldId) {
+    private boolean onChangeIpadRightOpratorRl(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiIpadRightOpratorBinding IpadRightOpratorRl, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x8L;
@@ -197,7 +197,7 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
         }
         return false;
     }
-    private boolean onChangeIpadRightOpratorRl(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiIpadRightOpratorBinding IpadRightOpratorRl, int fieldId) {
+    private boolean onChangeRightOpratorRl(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiRightOpratorBinding RightOpratorRl, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x10L;
@@ -206,7 +206,7 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
         }
         return false;
     }
-    private boolean onChangeBottomBar(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiBottomBarBinding BottomBar, int fieldId) {
+    private boolean onChangeToolBar(com.talkfun.cloudlive.databinding.ActivityLiveOneToMultiToolBarBinding ToolBar, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x20L;
@@ -244,12 +244,12 @@ public class ActivityLiveOneToMultiNativeBindingSw600dpImpl extends ActivityLive
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
-        flag 0 (0x1L): rightOpratorRl
-        flag 1 (0x2L): toolBar
+        flag 0 (0x1L): bottomBar
+        flag 1 (0x2L): llBadNetStatus
         flag 2 (0x3L): leftOpratorRl
-        flag 3 (0x4L): llBadNetStatus
-        flag 4 (0x5L): ipadRightOpratorRl
-        flag 5 (0x6L): bottomBar
+        flag 3 (0x4L): ipadRightOpratorRl
+        flag 4 (0x5L): rightOpratorRl
+        flag 5 (0x6L): toolBar
         flag 6 (0x7L): multimediaLayout
         flag 7 (0x8L): null
     flag mapping end*/

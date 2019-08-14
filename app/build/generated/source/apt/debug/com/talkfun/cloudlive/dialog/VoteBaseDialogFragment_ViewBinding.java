@@ -1,14 +1,14 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.dialog;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -19,7 +19,7 @@ import java.lang.Override;
 public class VoteBaseDialogFragment_ViewBinding implements Unbinder {
   private VoteBaseDialogFragment target;
 
-  private View view2131296540;
+  private View view7f09011f;
 
   @UiThread
   public VoteBaseDialogFragment_ViewBinding(final VoteBaseDialogFragment target, View source) {
@@ -33,7 +33,7 @@ public class VoteBaseDialogFragment_ViewBinding implements Unbinder {
     target.chooseLv = Utils.findRequiredViewAsType(source, R.id.lv_option, "field 'chooseLv'", ListView.class);
     view = Utils.findRequiredView(source, R.id.iv_vote_image, "field 'ivVoteImage' and method 'onClick'");
     target.ivVoteImage = Utils.castView(view, R.id.iv_vote_image, "field 'ivVoteImage'", ImageView.class);
-    view2131296540 = view;
+    view7f09011f = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -62,7 +62,7 @@ public class VoteBaseDialogFragment_ViewBinding implements Unbinder {
     target.answerSelf = null;
     target.answerCorrect = null;
 
-    view2131296540.setOnClickListener(null);
-    view2131296540 = null;
+    view7f09011f.setOnClickListener(null);
+    view7f09011f = null;
   }
 }

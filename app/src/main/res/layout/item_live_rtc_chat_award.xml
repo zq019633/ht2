@@ -10,7 +10,7 @@
             type="com.talkfun.sdk.rtc.entity.AwardEntity" />
     </data>
 
-    <android.support.constraint.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_35">
 
@@ -55,5 +55,5 @@
                 android:textSize="@dimen/sp_14" />
             <!-- android:text="@{awardEntity.toNick + @string/pop_live_otm_chat_award_tips}"-->
         </LinearLayout>
-    </android.support.constraint.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

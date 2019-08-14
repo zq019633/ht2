@@ -1,14 +1,14 @@
 // Generated code from Butter Knife. Do not modify!
 package com.talkfun.cloudlive.activity;
 
-import android.support.annotation.CallSuper;
-import android.support.annotation.UiThread;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import androidx.annotation.CallSuper;
+import androidx.annotation.UiThread;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -20,13 +20,13 @@ import java.lang.Override;
 public class PlaybackOnlyVideoNativeActivity_ViewBinding implements Unbinder {
   private PlaybackOnlyVideoNativeActivity target;
 
-  private View view2131296529;
+  private View view7f090114;
 
-  private View view2131296514;
+  private View view7f090105;
 
-  private View view2131296617;
+  private View view7f09016f;
 
-  private View view2131296531;
+  private View view7f090116;
 
   @UiThread
   public PlaybackOnlyVideoNativeActivity_ViewBinding(PlaybackOnlyVideoNativeActivity target) {
@@ -45,7 +45,7 @@ public class PlaybackOnlyVideoNativeActivity_ViewBinding implements Unbinder {
     target.seekBar = Utils.findRequiredViewAsType(source, R.id.seek_bar, "field 'seekBar'", SeekBar.class);
     view = Utils.findRequiredView(source, R.id.iv_play, "field 'playBtn' and method 'onClick'");
     target.playBtn = Utils.castView(view, R.id.iv_play, "field 'playBtn'", ImageView.class);
-    view2131296529 = view;
+    view7f090114 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -56,7 +56,7 @@ public class PlaybackOnlyVideoNativeActivity_ViewBinding implements Unbinder {
     target.currentDuration = Utils.findRequiredViewAsType(source, R.id.current_duration, "field 'currentDuration'", TextView.class);
     view = Utils.findRequiredView(source, R.id.iv_go_back, "field 'goBack' and method 'onClick'");
     target.goBack = Utils.castView(view, R.id.iv_go_back, "field 'goBack'", ImageView.class);
-    view2131296514 = view;
+    view7f090105 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -71,7 +71,7 @@ public class PlaybackOnlyVideoNativeActivity_ViewBinding implements Unbinder {
     target.parentLayout = Utils.findRequiredViewAsType(source, R.id.parent_Layout, "field 'parentLayout'", RelativeLayout.class);
     target.multipleStatusLayout = Utils.findRequiredViewAsType(source, R.id.status_layout, "field 'multipleStatusLayout'", MultipleStatusLayout2.class);
     view = Utils.findRequiredView(source, R.id.network_choice_iv, "method 'onClick'");
-    view2131296617 = view;
+    view7f09016f = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -79,7 +79,7 @@ public class PlaybackOnlyVideoNativeActivity_ViewBinding implements Unbinder {
       }
     });
     view = Utils.findRequiredView(source, R.id.iv_refresh, "method 'onClick'");
-    view2131296531 = view;
+    view7f090116 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -111,13 +111,13 @@ public class PlaybackOnlyVideoNativeActivity_ViewBinding implements Unbinder {
     target.parentLayout = null;
     target.multipleStatusLayout = null;
 
-    view2131296529.setOnClickListener(null);
-    view2131296529 = null;
-    view2131296514.setOnClickListener(null);
-    view2131296514 = null;
-    view2131296617.setOnClickListener(null);
-    view2131296617 = null;
-    view2131296531.setOnClickListener(null);
-    view2131296531 = null;
+    view7f090114.setOnClickListener(null);
+    view7f090114 = null;
+    view7f090105.setOnClickListener(null);
+    view7f090105 = null;
+    view7f09016f.setOnClickListener(null);
+    view7f09016f = null;
+    view7f090116.setOnClickListener(null);
+    view7f090116 = null;
   }
 }

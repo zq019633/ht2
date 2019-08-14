@@ -86,10 +86,10 @@ public class PlaybackNativeActivity extends BasePlayActivity implements
     @BindView(R.id.tv_speed)
     TextView tvSpeed;
 
-    @BindView(R.id.danmaku_view)
-    DanmakuView danmakuView;
-    @BindView(R.id.iv_danmu_switch)
-    ImageView ivDanmuSwitch;
+//    @BindView(R.id.danmaku_view)
+//    DanmakuView danmakuView;
+//    @BindView(R.id.iv_danmu_switch)
+//    ImageView ivDanmuSwitch;
 
     //--------------------------------------------------------------------------------
 
@@ -143,7 +143,7 @@ public class PlaybackNativeActivity extends BasePlayActivity implements
         goBack.bringToFront();
 
         hideTitleBar();  // 隐藏标题栏和操作按钮
-        initDanmaku();
+//        initDanmaku();
         updateLayout();
         seekBarHelper = new SeekBarHelper(this, seekBar);
         mHtSdk = HtSdk.getInstance();
@@ -178,9 +178,9 @@ public class PlaybackNativeActivity extends BasePlayActivity implements
      */
 
     private void initDanmaku() {
-        ivDanmuSwitch.setSelected(false);
-        danmakuFlameUtil = new DanmakuFlameUtil(danmakuView);
-        danmakuFlameUtil.hide();
+//        ivDanmuSwitch.setSelected(false);
+//        danmakuFlameUtil = new DanmakuFlameUtil(danmakuView);
+//        danmakuFlameUtil.hide();
     }
 
 
@@ -309,7 +309,7 @@ public class PlaybackNativeActivity extends BasePlayActivity implements
                 mHtSdk.exchangeVideoAndWhiteboard();
                 break;
             case R.id.network_choice_iv: //切换视频路线
-                //showSwitchLineDialog();
+//                showSwitchLineDialog();
                 if (mNetChoiseDiologHelper == null) {
                     mNetChoiseDiologHelper = new NetChoiseDiologHelper(PlaybackNativeActivity.this);
                 }
@@ -325,15 +325,15 @@ public class PlaybackNativeActivity extends BasePlayActivity implements
             case R.id.tv_speed:
                 showOrHideSpeedList(v);
                 break;
-            case R.id.iv_danmu_switch:  //弹幕开关
-                boolean selected = ivDanmuSwitch.isSelected();
-                ivDanmuSwitch.setSelected(!selected);
-                if (!selected) {
-                    danmakuFlameUtil.show();
-                } else {
-                    danmakuFlameUtil.hide();
-                }
-                break;
+//            case R.id.iv_danmu_switch:  //弹幕开关
+//                boolean selected = ivDanmuSwitch.isSelected();
+//                ivDanmuSwitch.setSelected(!selected);
+//                if (!selected) {
+//                    danmakuFlameUtil.show();
+//                } else {
+//                    danmakuFlameUtil.hide();
+//                }
+//                break;
             default:
                 break;
         }

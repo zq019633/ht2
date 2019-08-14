@@ -1,7 +1,7 @@
 package com.talkfun.cloudlive.viewmodel;
 
 import android.app.Application;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.talkfun.cloudlive.adapter.OTOVideoAdapter;
